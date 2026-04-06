@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Header.css';
-import logoImage from '../../img/logo.png';
+import logoImage from '../../img/logo.png'; 
 
 const Header = () => {
   const [hoveredMenu, setHoveredMenu] = useState(null);
   const [cartCount, setCartCount] = useState(0);
   const [currentUser, setCurrentUser] = useState(null);
+  
   const navigate = useNavigate();
+  const location = useLocation(); 
 
   useEffect(() => {
     const updateCartCount = () => {
@@ -17,10 +19,7 @@ const Header = () => {
       } else {
         try {
           const cart = JSON.parse(savedCart);
-          const totalItems = cart.reduce(
-            (sum, item) => sum + (item.quantity || 0),
-            0
-          );
+          const totalItems = cart.reduce((sum, item) => sum + (item.quantity || 0), 0);
           setCartCount(totalItems);
         } catch (error) {
           console.error('Lỗi đọc giỏ hàng:', error);
@@ -35,7 +34,6 @@ const Header = () => {
         setCurrentUser(null);
         return;
       }
-
       try {
         const user = JSON.parse(savedUser);
         setCurrentUser(user);
@@ -58,56 +56,49 @@ const Header = () => {
     return () => {
       window.removeEventListener('cartUpdated', updateCartCount);
       window.removeEventListener('userUpdated', updateCurrentUser);
-      window.removeEventListener('storage', () => {
-        updateCartCount();
-        updateCurrentUser();
-      });
     };
   }, []);
 
-  const coffeeMenuItems = [
-    { text: 'Hành trình tách cà phê đậm', href: '/coffee/hanh-trinh-tach-ca-phe' },
-    { text: 'Hạt cà phê Phúc Long', href: '/coffee/hat-ca-phe-phuc-long' },
-    { text: 'Nghệ thuật pha chế', href: '/coffee/nghe-thuat-pha-che' }
+  const categoriesMenuItems = [
+    { text: 'Cát, Đá, Xi măng', href: '/categories/1' },
+    { text: 'Sắt Thép Xây Dựng', href: '/categories/2' },
+    { text: 'Gạch Xây Các Loại', href: '/categories/3' },
+    { text: 'Gạch Ốp Lát', href: '/categories/4' },
+    { text: 'Sơn & Chống Thấm', href: '/categories/5' },
+    { text: 'Thiết Bị Điện', href: '/categories/6' },
+    { text: 'Ống Nước & Phụ Kiện', href: '/categories/7' },
+    { text: 'Thiết Bị Vệ Sinh', href: '/categories/8' },
+    { text: 'Nhôm Kính', href: '/categories/9' },
+    { text: 'Thạch Cao & Keo Bả', href: '/categories/10' }
   ];
 
+  const isActive = (path) => {
+    return location.pathname === path ? "active" : "";
+  };
+
   return (
-    <header className="phuclong-header">
+    <header className="moonbuild-header">
       <div className="header-top-bar">
         <div className="header-top-content">
+          
           <div className="header-delivery-info">
-            <span className="delivery-text">Free Delivery</span>
-            <i className="fas fa-phone delivery-icon"></i>
-            <span className="delivery-phone">1800 6779</span>
-            <div className="delivery-scooter">
-              <i className="fas fa-motorcycle"></i>
-            </div>
+            <span className="delivery-text">Tư Vấn 24/7</span>
+            <span className="delivery-icon">📞</span>
+            <span className="delivery-phone">1900 1234</span>
           </div>
 
           <div className="header-logo-container">
-            <div className="phuclong-logo">
-              <img src={logoImage} alt="Logo" className="header-logo-image" />
+            <div className="moonbuild-logo" onClick={() => navigate('/')}>
+              <img src={logoImage} alt="MoonBuild Logo" className="header-logo-image" />
             </div>
           </div>
 
           <div className="header-user-actions">
-            <button
-              className="login-link"
-              onClick={() => navigate('/login')}
-            >
+            <button className="login-link" onClick={() => navigate('/login')}>
               {currentUser ? (currentUser.name || currentUser.user) : 'Đăng nhập'}
             </button>
             <span className="action-separator">|</span>
-            <div className="language-selector">
-              <span className="lang-active">VN</span>
-              <span className="lang-separator">|</span>
-              <span className="lang-option">EN</span>
-            </div>
-            <button
-              className="cart-button"
-              onClick={() => navigate('/cart')}
-            >
-              <i className="fas fa-shopping-cart"></i>
+            <button className="cart-button" onClick={() => navigate('/cart')}>
               <span>Giỏ hàng</span>
               <span className="cart-badge">{cartCount}</span>
             </button>
@@ -117,36 +108,40 @@ const Header = () => {
 
       <nav className="header-navigation">
         <div className="nav-content">
-          <a href="/" className="nav-link">TRANG CHỦ</a>
+          <span className={`nav-link ${isActive('/')}`} onClick={() => navigate('/')}>
+            TRANG CHỦ
+          </span>
+
+          <span className={`nav-link ${isActive('/products')}`} onClick={() => navigate('/products')}>
+            SẢN PHẨM
+          </span>
 
           <div 
             className="nav-item-with-dropdown"
-            onMouseEnter={() => setHoveredMenu('coffee')}
+            onMouseEnter={() => setHoveredMenu('categories')}
             onMouseLeave={() => setHoveredMenu(null)}
           >
-            <a href="/coffee" className={`nav-link ${hoveredMenu === 'coffee' ? 'active' : ''}`}>
-              CÀ PHÊ
-            </a>
-            {hoveredMenu === 'coffee' && (
+            <span className={`nav-link ${isActive('/categories')}`} onClick={() => navigate('/categories')}>
+              DANH MỤC ▾
+            </span>
+            {hoveredMenu === 'categories' && (
               <div className="dropdown-menu">
-                {coffeeMenuItems.map((item, index) => (
-                  <a 
+                {categoriesMenuItems.map((item, index) => (
+                  <span 
                     key={index}
-                    href={item.href}
+                    onClick={() => navigate(item.href)}
                     className="dropdown-item"
                   >
                     {item.text}
-                  </a>
+                  </span>
                 ))}
               </div>
             )}
           </div>
 
-          <a href="/tea" className="nav-link">TRÀ</a>
-          <a href="/drinks" className="nav-link">THỨC UỐNG</a>
-          <a href="/products" className="nav-link">SẢN PHẨM</a>
-          <a href="/promotions" className="nav-link">KHUYẾN MÃI</a>
-          <a href="/about" className="nav-link">VỀ CHÚNG TÔI</a>
+          <span className={`nav-link ${isActive('/contact')}`} onClick={() => navigate('/contact')}>
+            LIÊN HỆ
+          </span>
         </div>
       </nav>
     </header>

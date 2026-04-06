@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "name": "Vật liệu xây dựng thô"
+    "name": "Cát, Đá, Xi măng"
   },
   {
     "id": 2,
-    "name": "Sắt thép xây dựng"
+    "name": "Sắt Thép Xây Dựng"
   },
   {
     "id": 3,
-    "name": "Gạch xây"
+    "name": "Gạch Xây Các Loại"
   },
   {
     "id": 4,
-    "name": "Gạch ốp lát"
+    "name": "Gạch Ốp Lát"
   },
   {
     "id": 5,
-    "name": "Sơn & chống thấm"
+    "name": "Sơn & Chống Thấm"
   },
   {
     "id": 6,
-    "name": "Thiết bị điện"
+    "name": "Thiết Bị Điện"
   },
   {
     "id": 7,
-    "name": "Thiết bị nước / ống nước"
+    "name": "Ống Nước & Phụ Kiện"
   },
   {
     "id": 8,
-    "name": "Thiết bị vệ sinh"
+    "name": "Thiết Bị Vệ Sinh"
   },
   {
     "id": 9,
-    "name": "Kính – nhôm – cửa"
+    "name": "Nhôm Kính"
   },
   {
     "id": 10,
-    "name": "Vật liệu hoàn thiện / trang trí"
+    "name": "Thạch Cao & Keo Bả"
   }
 ]
