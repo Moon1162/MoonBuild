@@ -1,126 +1,247 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import axios from "axios";
+import { Link, useNavigate } from "react-router-dom";
+import "./Login.css";
 
-const styles = `
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  .vlxd-page {
-    min-height: 100vh;
-    background-color: #e8ecef; /* Xám xi măng nhạt */
-    font-family: 'Montserrat', sans-serif;
-    display: flex; flex-direction: column; align-items: center; padding: 40px 20px;
-  }
-  .brand-header { text-align: center; margin-bottom: 20px; }
-  .brand-logo { width: 60px; height: 60px; background: #d35400; clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); margin: 0 auto 10px; display: flex; align-items: center; justify-content: center; }
-  .brand-logo-inner { width: 30px; height: 15px; background: #fff; border-radius: 2px; }
-  .brand-title { color: #2c3e50; font-weight: 800; font-size: 20px; text-transform: uppercase; letter-spacing: 1px; }
-  .brand-slogan { color: #d35400; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; margin-top: 5px; }
-  
-  .page-title { font-size: 24px; color: #2c3e50; font-weight: 700; margin-top: 10px; text-transform: uppercase; margin-bottom: 5px; }
-  .page-subtitle { font-size: 15px; color: #7f8c8d; margin-bottom: 25px; font-weight: 500; }
-  
-  .form-box { 
-    background-color: #ffffff; 
-    width: 100%; max-width: 450px; 
-    padding: 35px 40px; 
-    border-radius: 8px; 
-    border-top: 5px solid #d35400;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
-  }
-  
-  .form-group { margin-bottom: 18px; }
-  .form-label { display: block; font-size: 13px; font-weight: 600; color: #34495e; margin-bottom: 6px; text-transform: uppercase; }
-  .input-wrapper { display: flex; align-items: center; background: #fff; border: 1px solid #dcdde1; border-radius: 5px; overflow: hidden; transition: border 0.3s; }
-  .input-wrapper:focus-within { border-color: #d35400; }
-  .input-icon { padding: 12px; color: #7f8c8d; background: #f8f9fa; border-right: 1px solid #dcdde1; width: 45px; text-align: center; }
-  .form-input { flex: 1; border: none; padding: 12px 15px; font-size: 14px; outline: none; color: #2c3e50; font-weight: 500; }
-  .form-input::placeholder { color: #bdc3c7; font-weight: 400; }
-  
-  .options-row { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; margin-bottom: 20px; color: #34495e; }
-  .checkbox-label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
-  
-  .btn-primary { 
-    width: 100%; background-color: #d35400; color: #fff; border: none; 
-    padding: 14px; font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;
-    cursor: pointer; border-radius: 5px; transition: all 0.2s; 
-    box-shadow: 0 4px 6px rgba(211, 84, 0, 0.2); 
-    margin-bottom: 20px;
-  }
-  .btn-primary:hover { background-color: #e67e22; transform: translateY(-1px); box-shadow: 0 6px 10px rgba(211, 84, 0, 0.3); }
-  
-  .text-link { color: #2980b9; text-decoration: none; cursor: pointer; background: none; border: none; font-family: inherit; font-size: inherit; font-weight: 700; transition: color 0.2s; }
-  .text-link:hover { color: #d35400; }
-
-  .bottom-text { text-align: center; font-size: 14px; font-weight: 500; color: #34495e; }
-`;
-
-export default function Login({ onGoRegister, onGoForgot }) {
-  const [email, setEmail] = useState("");
+const Login = () => {
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [showPw, setShowPw] = useState(false);
+  const [error, setError] = useState("");
+  const [forgotMode, setForgotMode] = useState(false);
+  const [fpUser, setFpUser] = useState("");
+  const [fpNew, setFpNew] = useState("");
+  const [fpConfirm, setFpConfirm] = useState("");
+  const [fpError, setFpError] = useState("");
+  const [fpSuccess, setFpSuccess] = useState("");
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+
+    const trimmedUser = username.trim();
+    const trimmedPass = password.trim();
+    if (!trimmedUser && !trimmedPass) {
+      setError("Không được để trống tên đăng nhập và mật khẩu");
+      return;
+    }
+    if (!trimmedUser) {
+      setError("Không được để trống tên đăng nhập");
+      return;
+    }
+    if (!trimmedPass) {
+      setError("Không được để trống mật khẩu");
+      return;
+    }
+
+    try {
+      const normalizedUsername = trimmedUser.toLowerCase();
+      const normalizedPassword = trimmedPass;
+
+      const response = await fetch("/account.json");
+      if (!response.ok) {
+        throw new Error("Không thể tải dữ liệu tài khoản");
+      }
+
+      const accounts = await response.json();
+
+      const matchedAccount = accounts.find((acc) => {
+        const accUser = String(acc.user || "")
+          .trim()
+          .toLowerCase();
+        const accPass = String(acc.pass || "").trim();
+        return accUser === normalizedUsername && accPass === normalizedPassword;
+      });
+
+      if (!matchedAccount) {
+        setError("Sai tài khoản hoặc mật khẩu");
+        return;
+      }
+
+      const publicInfo = { ...matchedAccount };
+      delete publicInfo.pass;
+      localStorage.setItem("currentUser", JSON.stringify(publicInfo));
+
+      window.dispatchEvent(new Event("userUpdated"));
+
+      if (matchedAccount.role === "staff") {
+        navigate("/admin");
+      } else {
+        navigate("/");
+      }
+    } catch (err) {
+      console.error(err);
+      setError("Đã xảy ra lỗi, vui lòng thử lại sau");
+    }
+  };
+
+  const openForgot = () => {
+    setForgotMode(true);
+    setFpError("");
+    setFpSuccess("");
+    setFpUser(username.trim());
+    setFpNew("");
+    setFpConfirm("");
+  };
+
+  const closeForgot = () => {
+    setForgotMode(false);
+    setFpError("");
+    setFpSuccess("");
+  };
+
+  const handleForgotSubmit = async (e) => {
+    e.preventDefault();
+    setFpError("");
+    setFpSuccess("");
+
+    const u = fpUser.trim();
+    const p1 = fpNew.trim();
+    const p2 = fpConfirm.trim();
+
+    if (!u || !p1) {
+      setFpError("Vui lòng nhập tên đăng nhập và mật khẩu mới");
+      return;
+    }
+    if (p1 !== p2) {
+      setFpError("Mật khẩu xác nhận không khớp");
+      return;
+    }
+    if (p1.length < 3) {
+      setFpError("Mật khẩu mới tối thiểu 3 ký tự");
+      return;
+    }
+
+    try {
+      const { data } = await axios.post("/api/reset-password", {
+        user: u,
+        newPass: p1,
+      });
+      setFpSuccess(data.message || "Đã đổi mật khẩu. Bạn có thể đăng nhập.");
+      setFpNew("");
+      setFpConfirm("");
+    } catch (err) {
+      const msg =
+        err.response?.data?.error ||
+        (err.code === "ERR_NETWORK" || err.response?.status === 404
+          ? "Chỉ hoạt động khi chạy npm run dev hoặc npm run preview (API ghi file trên server)."
+          : null) ||
+        "Đã xảy ra lỗi, vui lòng thử lại sau";
+      setFpError(msg);
+    }
+  };
 
   return (
-    <>
-      <style>{styles}</style>
-      <div className="vlxd-page">
-     <div className="brand-header">
-          <img src="/logo.png" alt="Logo Vật Liệu Xây Dựng" className="brand-logo-img" />
-        </div>
-
-        <h1 className="page-title">ĐĂNG NHẬP</h1>
-        <p className="page-subtitle">Chào mừng bạn quay trở lại</p>
-
-        <div className="form-box">
-          <div className="form-group">
-            <label className="form-label">Email / Mã nhân viên</label>
-            <div className="input-wrapper">
-              <div className="input-icon">👤</div>
-              <input
-                type="text"
-                className="form-input"
-                placeholder="Nhập email hoặc mã nhân viên"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-          </div>
-
-          <div className="form-group">
-            <label className="form-label">Mật khẩu</label>
-            <div className="input-wrapper">
-              <div className="input-icon">🔒</div>
-              <input
-                type={showPw ? "text" : "password"}
-                className="form-input"
-                placeholder="Nhập mật khẩu"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-              <button 
-                type="button" 
-                style={{ background: 'none', border: 'none', padding: '0 15px', cursor: 'pointer', color: '#7f8c8d' }}
-                onClick={() => setShowPw(!showPw)}
+    <div className="login-page">
+      <div className="login-card">
+        {forgotMode ? (
+          <>
+            <h2 className="login-title">Quên mật khẩu</h2>
+            <form className="login-form" onSubmit={handleForgotSubmit}>
+              <div className="form-group">
+                <input
+                  type="text"
+                  className="form-input"
+                  placeholder="Tên đăng nhập"
+                  value={fpUser}
+                  onChange={(e) => setFpUser(e.target.value)}
+                  autoComplete="username"
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="password"
+                  className="form-input"
+                  placeholder="Mật khẩu mới"
+                  value={fpNew}
+                  onChange={(e) => setFpNew(e.target.value)}
+                  autoComplete="new-password"
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="password"
+                  className="form-input"
+                  placeholder="Xác nhận mật khẩu mới"
+                  value={fpConfirm}
+                  onChange={(e) => setFpConfirm(e.target.value)}
+                  autoComplete="new-password"
+                />
+              </div>
+              {fpError && <div className="login-error">{fpError}</div>}
+              {fpSuccess && <div className="login-success">{fpSuccess}</div>}
+              <button type="submit" className="login-button">
+                Đổi mật khẩu
+              </button>
+            </form>
+            <div className="login-footer login-footer--spaced">
+              <button
+                type="button"
+                className="link-button"
+                onClick={closeForgot}
               >
-                👁️
+                ← Quay lại đăng nhập
               </button>
             </div>
-          </div>
-
-          <div className="options-row">
-            <label className="checkbox-label">
-              <input type="checkbox" /> Ghi nhớ đăng nhập
-            </label>
-            <button className="text-link" onClick={onGoForgot}>Quên mật khẩu?</button>
-          </div>
-
-          <button className="btn-primary">ĐĂNG NHẬP</button>
-
-          <div className="bottom-text">
-            Chưa có tài khoản? <button className="text-link" onClick={onGoRegister}>ĐĂNG KÝ NGAY</button>
-          </div>
-        </div>
+          </>
+        ) : (
+          <>
+            <h2 className="login-title">Login</h2>
+            <form className="login-form" onSubmit={handleSubmit}>
+              <div className="form-group">
+                <input
+                  type="text"
+                  className="form-input"
+                  placeholder="Email or Username"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="password"
+                  className="form-input"
+                  placeholder="Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+              </div>
+              <div className="forgot-row">
+                <button
+                  type="button"
+                  className="forgot-link"
+                  onClick={openForgot}
+                >
+                  Forgot password?
+                </button>
+              </div>
+              {error && <div className="login-error">{error}</div>}
+              <button type="submit" className="login-button">
+                LOGIN
+              </button>
+            </form>
+            <div className="login-divider">Or login with</div>
+            <div className="social-login">
+              <button type="button" className="social-btn facebook">
+                <i className="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+              </button>
+              <button type="button" className="social-btn google">
+                <i className="fab fa-google"></i>
+                <span>Google</span>
+              </button>
+            </div>
+            <div className="login-footer">
+              <span>Not a member?</span>
+              <Link to="/signup" className="signup-link">
+                Signup now
+              </Link>
+            </div>
+          </>
+        )}
       </div>
-    </>
+    </div>
   );
-}
+};
+
+export default Login;

@@ -1,902 +1,4402 @@
 [
   {
     "id": 1,
+    "categoryid": 1,
     "name": "Xi măng Hà Tiên",
-    "categoryId": 1,
-    "img": "",
-    "price": 28000,
-    "unit": "bao 50kg",
-    "stock": 377
+    "imageKey": "sp1",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Xi măng Vicem Hà Tiên đa dụng mang lại chất lượng tuyệt hảo cho các công trình. Ứng dụng tốt cho việc đổ bê tông móng, sàn, cột, cũng như xây tô tường. Đặc tính đông kết nhanh, cường độ cao, giúp tiết kiệm chi phí và thời gian thi công.",
+    "specs": {
+      "Thương hiệu": "Vicem Hà Tiên",
+      "Loại xi măng": "Đa dụng (PCB40)",
+      "Tiêu chuẩn": "TCVN 6260:2020",
+      "Ứng dụng": "Đổ bê tông, xây tô, cán nền",
+      "Bảo quản": "Nơi khô ráo, tránh ẩm ướt"
+    },
+    "variants": [
+      {
+        "name": "Bao 10kg",
+        "price": "18.000₫",
+        "originalPrice": "20.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "Bao 25kg",
+        "price": "42.000₫",
+        "originalPrice": "45.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "80.000₫",
+        "originalPrice": "85.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "18.000₫",
+    "originalPrice": "20.000₫",
+    "discount": "-10%",
+    "rating": "4.5",
+    "sold": "809"
   },
   {
     "id": 2,
+    "categoryid": 1,
     "name": "Xi măng Holcim",
-    "categoryId": 1,
-    "img": "",
-    "price": 28000,
-    "unit": "bao 40kg",
-    "stock": 107
+    "imageKey": "sp2",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Xi măng Holcim chất lượng cao, được sản xuất theo tiêu chuẩn quốc tế với công nghệ tiên tiến. Phù hợp cho mọi công trình từ dân dụng đến công nghiệp, đảm bảo độ bền và cường độ vượt trội.",
+    "specs": {
+      "Thương hiệu": "Holcim",
+      "Loại xi măng": "Đa dụng (PCB40)",
+      "Tiêu chuẩn": "TCVN 6260:2020",
+      "Ứng dụng": "Đổ bê tông, xây tô, cán nền",
+      "Bảo quản": "Nơi khô ráo, tránh ẩm ướt"
+    },
+    "variants": [
+      {
+        "name": "Bao 10kg",
+        "price": "18.000₫",
+        "originalPrice": "20.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "Bao 25kg",
+        "price": "42.000₫",
+        "originalPrice": "45.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "81.000₫",
+        "originalPrice": "85.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "18.000₫",
+    "originalPrice": "20.000₫",
+    "discount": "-10%",
+    "rating": "4.9",
+    "sold": "1,1k"
   },
   {
     "id": 3,
+    "categoryid": 1,
     "name": "Xi măng INSEE",
-    "categoryId": 1,
-    "img": "",
-    "price": 28000,
-    "unit": "bao 50kg",
-    "stock": 62
+    "imageKey": "sp3",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Xi măng INSEE nhập khẩu từ Thái Lan, nổi tiếng với chất lượng ổn định và cường độ cao. Sản phẩm được tin dùng rộng rãi trong các công trình xây dựng tại Việt Nam.",
+    "specs": {
+      "Thương hiệu": "INSEE",
+      "Loại xi măng": "Đa dụng (PCB40)",
+      "Tiêu chuẩn": "TCVN 6260:2020",
+      "Ứng dụng": "Đổ bê tông, xây tô",
+      "Bảo quản": "Nơi khô ráo, thoáng mát"
+    },
+    "variants": [
+      {
+        "name": "Bao 10kg",
+        "price": "19.000₫",
+        "originalPrice": "21.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "Bao 25kg",
+        "price": "45.000₫",
+        "originalPrice": "47.000₫",
+        "discount": "-4%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "85.000₫",
+        "originalPrice": "89.000₫",
+        "discount": "-4%"
+      }
+    ],
+    "currentPrice": "19.000₫",
+    "originalPrice": "21.000₫",
+    "discount": "-9%",
+    "rating": "4.9",
+    "sold": "38k"
   },
   {
     "id": 4,
+    "categoryid": 1,
     "name": "Xi măng Nghi Sơn",
-    "categoryId": 1,
-    "img": "",
-    "price": 25000,
-    "unit": "tấn",
-    "stock": 429
+    "imageKey": "sp4",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Xi măng Nghi Sơn sản xuất tại Thanh Hóa với nguồn nguyên liệu chất lượng cao. Đặc tính đông kết tốt, phù hợp cho các công trình xây dựng vừa và lớn trên toàn quốc.",
+    "specs": {
+      "Thương hiệu": "Nghi Sơn",
+      "Loại xi măng": "PCB40",
+      "Tiêu chuẩn": "TCVN 6260:2020",
+      "Ứng dụng": "Xây dựng dân dụng và công nghiệp",
+      "Bảo quản": "Nơi khô ráo, tránh ẩm"
+    },
+    "variants": [
+      {
+        "name": "Bao 10kg",
+        "price": "17.000₫",
+        "originalPrice": "19.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "Bao 25kg",
+        "price": "40.000₫",
+        "originalPrice": "43.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "77.000₫",
+        "originalPrice": "81.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "17.000₫",
+    "originalPrice": "19.000₫",
+    "discount": "-10%",
+    "rating": "4.6",
+    "sold": "7,6k"
   },
   {
     "id": 5,
+    "categoryid": 1,
     "name": "Xi măng Vicem",
-    "categoryId": 1,
-    "img": "",
-    "price": 27000,
-    "unit": "bao 50kg",
-    "stock": 190
+    "imageKey": "sp5",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Xi măng Vicem (Tổng Công ty Xi măng Việt Nam) là thương hiệu hàng đầu trong nước với nhiều năm kinh nghiệm. Sản phẩm đạt tiêu chuẩn chất lượng cao, giá thành hợp lý cho mọi công trình.",
+    "specs": {
+      "Thương hiệu": "Vicem",
+      "Loại xi măng": "PCB40",
+      "Tiêu chuẩn": "TCVN 6260:2020",
+      "Ứng dụng": "Đổ bê tông, xây tô, cán nền",
+      "Bảo quản": "Nơi khô ráo, tránh tiếp xúc trực tiếp với đất"
+    },
+    "variants": [
+      {
+        "name": "Bao 10kg",
+        "price": "16.000₫",
+        "originalPrice": "18.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "Bao 25kg",
+        "price": "37.000₫",
+        "originalPrice": "40.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "71.000₫",
+        "originalPrice": "76.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "16.000₫",
+    "originalPrice": "18.000₫",
+    "discount": "-11%",
+    "rating": "4.5",
+    "sold": "55k"
   },
   {
     "id": 6,
+    "categoryid": 1,
     "name": "Cát vàng xây dựng",
-    "categoryId": 1,
-    "img": "",
-    "price": 211000,
-    "unit": "tấn",
-    "stock": 175
+    "imageKey": "sp6",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Cát vàng xây dựng hạt mịn đều, không lẫn tạp chất, đáp ứng tiêu chuẩn kỹ thuật xây dựng. Thường dùng để trộn vữa xây tường, tô trát, cán nền và đổ bê tông móng.",
+    "specs": {
+      "Loại cát": "Cát vàng",
+      "Kích cỡ hạt": "0.5 - 2mm",
+      "Ứng dụng": "Xây tường, tô trát, cán nền",
+      "Độ ẩm": "≤ 5%",
+      "Nguồn gốc": "Cát sông tự nhiên"
+    },
+    "variants": [
+      {
+        "name": "Bao 25kg",
+        "price": "25.000₫",
+        "originalPrice": "28.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "47.000₫",
+        "originalPrice": "50.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "1 Khối (m3)",
+        "price": "1.357.000₫",
+        "originalPrice": "1.428.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "25.000₫",
+    "originalPrice": "28.000₫",
+    "discount": "-10%",
+    "rating": "5",
+    "sold": "58k"
   },
   {
     "id": 7,
+    "categoryid": 1,
     "name": "Cát đen san lấp",
-    "categoryId": 1,
-    "img": "",
-    "price": 133000,
-    "unit": "m3",
-    "stock": 164
+    "imageKey": "sp7",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Cát đen san lấp mặt bằng chất lượng tốt, hạt thô đều, phù hợp cho công tác san lấp, đắp nền và làm vật liệu lót móng công trình. Giá thành thấp, tiết kiệm chi phí thi công.",
+    "specs": {
+      "Loại cát": "Cát đen",
+      "Kích cỡ hạt": "1 - 4mm",
+      "Ứng dụng": "San lấp mặt bằng, đắp nền",
+      "Độ ẩm": "≤ 8%",
+      "Nguồn gốc": "Cát sông/biển"
+    },
+    "variants": [
+      {
+        "name": "Bao 25kg",
+        "price": "15.000₫",
+        "originalPrice": "18.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "29.000₫",
+        "originalPrice": "32.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "1 Khối (m3)",
+        "price": "845.000₫",
+        "originalPrice": "918.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "15.000₫",
+    "originalPrice": "18.000₫",
+    "discount": "-16%",
+    "rating": "4.9",
+    "sold": "94k"
   },
   {
     "id": 8,
+    "categoryid": 1,
     "name": "Cát mịn trát tường",
-    "categoryId": 1,
-    "img": "",
-    "price": 233000,
-    "unit": "tấn",
-    "stock": 121
+    "imageKey": "sp8",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Cát mịn trát tường có hạt nhỏ đều, bề mặt phẳng mịn sau khi hoàn thiện. Phù hợp để trát tường trong nhà, ngoài nhà và làm lớp hoàn thiện bề mặt tường trước khi sơn.",
+    "specs": {
+      "Loại cát": "Cát mịn",
+      "Kích cỡ hạt": "0.1 - 0.5mm",
+      "Ứng dụng": "Trát tường, làm phẳng bề mặt",
+      "Độ ẩm": "≤ 4%",
+      "Nguồn gốc": "Cát sông tự nhiên"
+    },
+    "variants": [
+      {
+        "name": "Bao 25kg",
+        "price": "20.000₫",
+        "originalPrice": "23.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "38.000₫",
+        "originalPrice": "41.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "1 Khối (m3)",
+        "price": "1.103.000₫",
+        "originalPrice": "1.173.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "20.000₫",
+    "originalPrice": "23.000₫",
+    "discount": "-13%",
+    "rating": "4.6",
+    "sold": "45k"
   },
   {
     "id": 9,
+    "categoryid": 1,
     "name": "Đá 1x2 xây dựng",
-    "categoryId": 1,
-    "img": "",
-    "price": 255000,
-    "unit": "m3",
-    "stock": 427
+    "imageKey": "sp9",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Đá 1x2 xây dựng kích thước đồng đều, cứng chắc, phù hợp cho đổ bê tông móng, cột, sàn và các kết cấu chịu lực. Nguồn gốc từ đá granite tự nhiên đảm bảo chất lượng bền vững.",
+    "specs": {
+      "Loại đá": "Đá dăm 1x2",
+      "Kích cỡ": "10 - 20mm",
+      "Ứng dụng": "Đổ bê tông cột, sàn, móng",
+      "Cường độ nén": "≥ 800 kG/cm²",
+      "Nguồn gốc": "Đá granite tự nhiên"
+    },
+    "variants": [
+      {
+        "name": "Bao 25kg",
+        "price": "30.000₫",
+        "originalPrice": "35.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "58.000₫",
+        "originalPrice": "63.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Khối (m3)",
+        "price": "1.660.000₫",
+        "originalPrice": "1.785.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "30.000₫",
+    "originalPrice": "35.000₫",
+    "discount": "-14%",
+    "rating": "4.7",
+    "sold": "4,5k"
   },
   {
     "id": 10,
+    "categoryid": 1,
     "name": "Đá 4x6 nền móng",
-    "categoryId": 1,
-    "img": "",
-    "price": 253000,
-    "unit": "tấn",
-    "stock": 102
+    "imageKey": "sp10",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Đá 4x6 nền móng kích thước lớn, thích hợp cho làm lớp đệm móng, đắp nền đường và các công trình hạ tầng. Chất liệu đá tự nhiên cứng chắc, chịu tải trọng cao.",
+    "specs": {
+      "Loại đá": "Đá dăm 4x6",
+      "Kích cỡ": "40 - 60mm",
+      "Ứng dụng": "Lót móng, đắp nền đường",
+      "Cường độ nén": "≥ 800 kG/cm²",
+      "Nguồn gốc": "Đá tự nhiên"
+    },
+    "variants": [
+      {
+        "name": "Bao 25kg",
+        "price": "28.000₫",
+        "originalPrice": "32.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "Bao 50kg",
+        "price": "54.000₫",
+        "originalPrice": "58.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "1 Khối (m3)",
+        "price": "1.534.000₫",
+        "originalPrice": "1.632.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "28.000₫",
+    "originalPrice": "32.000₫",
+    "discount": "-12%",
+    "rating": "4.6",
+    "sold": "91k"
   },
   {
     "id": 11,
+    "categoryid": 2,
     "name": "Thép phi 6 CB240T",
-    "categoryId": 2,
-    "img": "",
-    "price": 15000,
-    "unit": "kg",
-    "stock": 396
+    "imageKey": "sp11",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 6 CB240T dùng làm thép đai, thép phân bố trong kết cấu bê tông cốt thép. Sản phẩm đạt tiêu chuẩn TCVN với độ bền kéo và tính dẻo tốt, dễ uốn cốt pha.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / Pomina",
+      "Tiêu chuẩn": "TCVN 1651-1:2018",
+      "Đường kính": "6mm",
+      "Giới hạn chảy": "≥ 240 MPa",
+      "Ứng dụng": "Thép đai, thép phân bố"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "6.000₫",
+        "originalPrice": "7.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "29.000₫",
+        "originalPrice": "32.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "65.000₫",
+        "originalPrice": "70.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "6.000₫",
+    "originalPrice": "7.000₫",
+    "discount": "-14%",
+    "rating": "4.6",
+    "sold": "891"
   },
   {
     "id": 12,
+    "categoryid": 2,
     "name": "Thép phi 8 CB240T",
-    "categoryId": 2,
-    "img": "",
-    "price": 15000,
-    "unit": "thanh",
-    "stock": 429
+    "imageKey": "sp12",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 8 CB240T được sử dụng làm thép đai và thép phụ trong các kết cấu bê tông cốt thép. Chất lượng đồng đều, bề mặt sạch, không rỉ sét khi xuất xưởng.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / Pomina",
+      "Tiêu chuẩn": "TCVN 1651-1:2018",
+      "Đường kính": "8mm",
+      "Giới hạn chảy": "≥ 240 MPa",
+      "Ứng dụng": "Thép đai, thép cột nhỏ"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "9.000₫",
+        "originalPrice": "10.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "42.000₫",
+        "originalPrice": "45.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "94.000₫",
+        "originalPrice": "99.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "9.000₫",
+    "originalPrice": "10.000₫",
+    "discount": "-10%",
+    "rating": "4.9",
+    "sold": "9179"
   },
   {
     "id": 13,
+    "categoryid": 2,
     "name": "Thép phi 10 CB300V",
-    "categoryId": 2,
-    "img": "",
-    "price": 16000,
-    "unit": "tấn",
-    "stock": 329
+    "imageKey": "sp13",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 10 CB300V thép gai cường độ cao dùng cho cột, dầm, sàn bê tông cốt thép. Gờ thép giúp bám dính bê tông tốt hơn, tăng cường độ chịu lực của kết cấu.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / VAS",
+      "Tiêu chuẩn": "TCVN 1651-2:2018",
+      "Đường kính": "10mm",
+      "Giới hạn chảy": "≥ 300 MPa",
+      "Ứng dụng": "Cột, dầm, sàn bê tông"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "14.000₫",
+        "originalPrice": "16.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "67.000₫",
+        "originalPrice": "72.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "149.000₫",
+        "originalPrice": "159.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "14.000₫",
+    "originalPrice": "16.000₫",
+    "discount": "-12%",
+    "rating": "4.6",
+    "sold": "81k"
   },
   {
     "id": 14,
+    "categoryid": 2,
     "name": "Thép phi 12 CB300V",
-    "categoryId": 2,
-    "img": "",
-    "price": 16000,
-    "unit": "kg",
-    "stock": 94
+    "imageKey": "sp14",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 12 CB300V thép gai chịu lực tốt, phù hợp cho cốt thép chính trong dầm, cột và sàn nhà. Được sản xuất theo tiêu chuẩn TCVN đảm bảo độ bền kéo và giới hạn chảy cao.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / Pomina",
+      "Tiêu chuẩn": "TCVN 1651-2:2018",
+      "Đường kính": "12mm",
+      "Giới hạn chảy": "≥ 300 MPa",
+      "Ứng dụng": "Cốt thép chính dầm, cột, sàn"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "20.000₫",
+        "originalPrice": "23.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "96.000₫",
+        "originalPrice": "104.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "215.000₫",
+        "originalPrice": "229.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "20.000₫",
+    "originalPrice": "23.000₫",
+    "discount": "-13%",
+    "rating": "4.9",
+    "sold": "9348"
   },
   {
     "id": 15,
+    "categoryid": 2,
     "name": "Thép phi 14 CB300V",
-    "categoryId": 2,
-    "img": "",
-    "price": 15000,
-    "unit": "thanh",
-    "stock": 352
+    "imageKey": "sp15",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 14 CB300V là thép gai phổ biến trong xây dựng dân dụng, sử dụng làm cốt thép chính cho các kết cấu chịu lực vừa. Độ bền cao, dễ thi công và hàn nối.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / VAS",
+      "Tiêu chuẩn": "TCVN 1651-2:2018",
+      "Đường kính": "14mm",
+      "Giới hạn chảy": "≥ 300 MPa",
+      "Ứng dụng": "Cốt thép chính, dầm sàn"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "27.000₫",
+        "originalPrice": "30.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "127.000₫",
+        "originalPrice": "135.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "283.000₫",
+        "originalPrice": "298.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "27.000₫",
+    "originalPrice": "30.000₫",
+    "discount": "-10%",
+    "rating": "4.5",
+    "sold": "3621"
   },
   {
     "id": 16,
+    "categoryid": 2,
     "name": "Thép phi 16 CB300V",
-    "categoryId": 2,
-    "img": "",
-    "price": 17000,
-    "unit": "tấn",
-    "stock": 266
+    "imageKey": "sp16",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 16 CB300V dùng cho các kết cấu chịu lực lớn như cột nhà cao tầng, dầm chính và móng công trình. Chất lượng vượt trội với giới hạn chảy cao và độ giãn dài tốt.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / Pomina",
+      "Tiêu chuẩn": "TCVN 1651-2:2018",
+      "Đường kính": "16mm",
+      "Giới hạn chảy": "≥ 300 MPa",
+      "Ứng dụng": "Cột nhà cao tầng, móng công trình"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "35.000₫",
+        "originalPrice": "40.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "167.000₫",
+        "originalPrice": "180.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "374.000₫",
+        "originalPrice": "398.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "35.000₫",
+    "originalPrice": "40.000₫",
+    "discount": "-12%",
+    "rating": "4.8",
+    "sold": "440"
   },
   {
     "id": 17,
+    "categoryid": 2,
     "name": "Thép phi 18 CB400V",
-    "categoryId": 2,
-    "img": "",
-    "price": 16000,
-    "unit": "kg",
-    "stock": 66
+    "imageKey": "sp17",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 18 CB400V cường độ cao dùng cho các công trình yêu cầu chịu lực lớn. Sản phẩm đạt tiêu chuẩn CB400V với giới hạn chảy vượt trội, phù hợp cho nhà nhiều tầng và cầu đường.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / VAS",
+      "Tiêu chuẩn": "TCVN 1651-2:2018",
+      "Đường kính": "18mm",
+      "Giới hạn chảy": "≥ 400 MPa",
+      "Ứng dụng": "Nhà cao tầng, cầu đường"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "45.000₫",
+        "originalPrice": "50.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "212.000₫",
+        "originalPrice": "225.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "472.000₫",
+        "originalPrice": "497.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "45.000₫",
+    "originalPrice": "50.000₫",
+    "discount": "-10%",
+    "rating": "5",
+    "sold": "3591"
   },
   {
     "id": 18,
+    "categoryid": 2,
     "name": "Thép phi 20 CB400V",
-    "categoryId": 2,
-    "img": "",
-    "price": 16000,
-    "unit": "thanh",
-    "stock": 65
+    "imageKey": "sp18",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 20 CB400V loại thép gai cường độ cao, được sử dụng phổ biến trong các công trình lớn như cao ốc, cầu và các kết cấu hạ tầng quan trọng. Độ bền kéo xuất sắc, đảm bảo an toàn kết cấu.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / Pomina",
+      "Tiêu chuẩn": "TCVN 1651-2:2018",
+      "Đường kính": "20mm",
+      "Giới hạn chảy": "≥ 400 MPa",
+      "Ứng dụng": "Cao ốc, cầu, hạ tầng lớn"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "56.000₫",
+        "originalPrice": "62.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "265.000₫",
+        "originalPrice": "279.000₫",
+        "discount": "-5%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "592.000₫",
+        "originalPrice": "617.000₫",
+        "discount": "-4%"
+      }
+    ],
+    "currentPrice": "56.000₫",
+    "originalPrice": "62.000₫",
+    "discount": "-9%",
+    "rating": "5",
+    "sold": "946"
   },
   {
     "id": 19,
+    "categoryid": 2,
     "name": "Thép phi 22 CB400V",
-    "categoryId": 2,
-    "img": "",
-    "price": 19000,
-    "unit": "tấn",
-    "stock": 97
+    "imageKey": "sp19",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 22 CB400V thép gai cường độ rất cao, thích hợp cho các kết cấu chịu tải trọng nặng như móng cọc, dầm chuyển và cột lõi nhà cao tầng.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / VAS",
+      "Tiêu chuẩn": "TCVN 1651-2:2018",
+      "Đường kính": "22mm",
+      "Giới hạn chảy": "≥ 400 MPa",
+      "Ứng dụng": "Móng cọc, dầm chuyển, cột lõi"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "68.000₫",
+        "originalPrice": "75.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "321.000₫",
+        "originalPrice": "338.000₫",
+        "discount": "-5%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "716.000₫",
+        "originalPrice": "746.000₫",
+        "discount": "-4%"
+      }
+    ],
+    "currentPrice": "68.000₫",
+    "originalPrice": "75.000₫",
+    "discount": "-9%",
+    "rating": "5",
+    "sold": "569"
   },
   {
     "id": 20,
+    "categoryid": 2,
     "name": "Thép phi 25 CB400V",
-    "categoryId": 2,
-    "img": "",
-    "price": 16000,
-    "unit": "kg",
-    "stock": 161
+    "imageKey": "sp20",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thép phi 25 CB400V là cỡ thép lớn dùng cho các công trình hạ tầng quy mô, cầu vượt và nhà siêu cao tầng. Cung cấp khả năng chịu lực vượt trội, đảm bảo an toàn kết cấu lâu dài.",
+    "specs": {
+      "Thương hiệu": "Hòa Phát / Pomina",
+      "Tiêu chuẩn": "TCVN 1651-2:2018",
+      "Đường kính": "25mm",
+      "Giới hạn chảy": "≥ 400 MPa",
+      "Ứng dụng": "Công trình hạ tầng, nhà siêu cao tầng"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "88.000₫",
+        "originalPrice": "98.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "5 Mét",
+        "price": "415.000₫",
+        "originalPrice": "441.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "1 Cây (11.7m)",
+        "price": "926.000₫",
+        "originalPrice": "975.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "88.000₫",
+    "originalPrice": "98.000₫",
+    "discount": "-10%",
+    "rating": "4.8",
+    "sold": "69"
   },
   {
     "id": 21,
+    "categoryid": 3,
     "name": "Gạch đặc 6.5x10.5x22",
-    "categoryId": 3,
-    "img": "",
-    "price": 1000,
-    "unit": "viên",
-    "stock": 169
+    "imageKey": "sp21",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch đặc 6.5x10.5x22 truyền thống, nung ở nhiệt độ cao cho độ cứng và độ bền cao. Phù hợp để xây tường chịu lực, tường bao che và các công trình xây dựng thông thường.",
+    "specs": {
+      "Kích thước": "6.5 x 10.5 x 22 cm",
+      "Loại gạch": "Gạch đặc nung",
+      "Cường độ nén": "≥ 75 kG/cm²",
+      "Ứng dụng": "Xây tường chịu lực, tường bao",
+      "Tiêu chuẩn": "TCVN 1451:1998"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "15.000₫",
+        "originalPrice": "18.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "73.000₫",
+        "originalPrice": "81.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "141.000₫",
+        "originalPrice": "153.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "15.000₫",
+    "originalPrice": "18.000₫",
+    "discount": "-16%",
+    "rating": "4.9",
+    "sold": "2,8k"
   },
   {
     "id": 22,
+    "categoryid": 3,
     "name": "Gạch rỗng 8 lỗ 6x10x20",
-    "categoryId": 3,
-    "img": "",
-    "price": 1000,
-    "unit": "nghìn viên",
-    "stock": 308
+    "imageKey": "sp22",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch rỗng 8 lỗ 6x10x20 nhẹ hơn gạch đặc, giảm tải trọng công trình và cách nhiệt tốt hơn. Phù hợp cho tường ngăn phòng và tường không chịu lực trong xây dựng dân dụng.",
+    "specs": {
+      "Kích thước": "6 x 10 x 20 cm",
+      "Loại gạch": "Gạch rỗng 8 lỗ",
+      "Cường độ nén": "≥ 35 kG/cm²",
+      "Ứng dụng": "Tường ngăn, tường không chịu lực",
+      "Tiêu chuẩn": "TCVN 1450:2009"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "12.000₫",
+        "originalPrice": "14.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "58.000₫",
+        "originalPrice": "63.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "111.000₫",
+        "originalPrice": "119.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "12.000₫",
+    "originalPrice": "14.000₫",
+    "discount": "-14%",
+    "rating": "5",
+    "sold": "9645"
   },
   {
     "id": 23,
+    "categoryid": 3,
     "name": "Gạch rỗng 4 lỗ 8x8x18",
-    "categoryId": 3,
-    "img": "",
-    "price": 1000,
-    "unit": "viên",
-    "stock": 358
+    "imageKey": "sp23",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch rỗng 4 lỗ 8x8x18 kích thước nhỏ gọn, tiện lợi cho thi công tường ngăn phòng và các kết cấu tường mỏng. Trọng lượng nhẹ, giảm tải trọng kết cấu đỡ tường.",
+    "specs": {
+      "Kích thước": "8 x 8 x 18 cm",
+      "Loại gạch": "Gạch rỗng 4 lỗ",
+      "Cường độ nén": "≥ 35 kG/cm²",
+      "Ứng dụng": "Tường ngăn, tường mỏng",
+      "Tiêu chuẩn": "TCVN 1450:2009"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "10.000₫",
+        "originalPrice": "12.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "49.000₫",
+        "originalPrice": "54.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "94.000₫",
+        "originalPrice": "102.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "10.000₫",
+    "originalPrice": "12.000₫",
+    "discount": "-16%",
+    "rating": "4.9",
+    "sold": "7118"
   },
   {
     "id": 24,
+    "categoryid": 3,
     "name": "Gạch siêu nhẹ ACC 7.5x20x60",
-    "categoryId": 3,
-    "img": "",
-    "price": 3000,
-    "unit": "m2",
-    "stock": 63
+    "imageKey": "sp24",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch siêu nhẹ AAC 7.5x20x60 được sản xuất bằng công nghệ bê tông khí chưng áp, nhẹ hơn gạch thường đến 70%. Cách nhiệt, cách âm vượt trội, giúp tiết kiệm năng lượng cho công trình.",
+    "specs": {
+      "Kích thước": "7.5 x 20 x 60 cm",
+      "Loại gạch": "Gạch nhẹ AAC",
+      "Tỷ trọng": "500 - 700 kg/m³",
+      "Cách nhiệt": "λ = 0.12 W/mK",
+      "Tiêu chuẩn": "TCVN 7959:2011"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "30.000₫",
+        "originalPrice": "35.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "145.000₫",
+        "originalPrice": "158.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "277.000₫",
+        "originalPrice": "298.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "30.000₫",
+    "originalPrice": "35.000₫",
+    "discount": "-14%",
+    "rating": "4.5",
+    "sold": "4,2k"
   },
   {
     "id": 25,
+    "categoryid": 3,
     "name": "Gạch siêu nhẹ ACC 10x20x60",
-    "categoryId": 3,
-    "img": "",
-    "price": 4000,
-    "unit": "viên",
-    "stock": 337
+    "imageKey": "sp25",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch siêu nhẹ AAC 10x20x60 độ dày lớn hơn, phù hợp cho tường ngoài nhà và tường chịu lực nhẹ. Khả năng cách nhiệt và cách âm xuất sắc, bề mặt phẳng giúp tiết kiệm vữa trát.",
+    "specs": {
+      "Kích thước": "10 x 20 x 60 cm",
+      "Loại gạch": "Gạch nhẹ AAC",
+      "Tỷ trọng": "500 - 700 kg/m³",
+      "Cách nhiệt": "λ = 0.12 W/mK",
+      "Tiêu chuẩn": "TCVN 7959:2011"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "40.000₫",
+        "originalPrice": "48.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "194.000₫",
+        "originalPrice": "216.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "375.000₫",
+        "originalPrice": "408.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "40.000₫",
+    "originalPrice": "48.000₫",
+    "discount": "-16%",
+    "rating": "4.5",
+    "sold": "18k"
   },
   {
     "id": 26,
+    "categoryid": 3,
     "name": "Gạch không nung 10x20x40",
-    "categoryId": 3,
-    "img": "",
-    "price": 2000,
-    "unit": "m2",
-    "stock": 151
+    "imageKey": "sp26",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch không nung 10x20x40 thân thiện với môi trường, sản xuất không qua quá trình nung. Độ bền cao, tiết kiệm năng lượng sản xuất và giảm phát thải CO2 so với gạch nung truyền thống.",
+    "specs": {
+      "Kích thước": "10 x 20 x 40 cm",
+      "Loại gạch": "Gạch không nung",
+      "Cường độ nén": "≥ 50 kG/cm²",
+      "Ứng dụng": "Tường ngăn, tường bao che",
+      "Tiêu chuẩn": "TCVN 9030:2011"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "20.000₫",
+        "originalPrice": "24.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "97.000₫",
+        "originalPrice": "108.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "188.000₫",
+        "originalPrice": "204.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "20.000₫",
+    "originalPrice": "24.000₫",
+    "discount": "-16%",
+    "rating": "4.9",
+    "sold": "5,8k"
   },
   {
     "id": 27,
+    "categoryid": 3,
     "name": "Gạch không nung 15x20x40",
-    "categoryId": 3,
-    "img": "",
-    "price": 2000,
-    "unit": "viên",
-    "stock": 416
+    "imageKey": "sp27",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch không nung 15x20x40 kích thước lớn, xây nhanh hơn gạch thường do diện tích mỗi viên lớn. Thích hợp cho tường có chiều dày 15cm, phổ biến trong các công trình nhà dân.",
+    "specs": {
+      "Kích thước": "15 x 20 x 40 cm",
+      "Loại gạch": "Gạch không nung",
+      "Cường độ nén": "≥ 50 kG/cm²",
+      "Ứng dụng": "Tường dày 15cm, tường ngoài nhà",
+      "Tiêu chuẩn": "TCVN 9030:2011"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "30.000₫",
+        "originalPrice": "35.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "145.000₫",
+        "originalPrice": "158.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "277.000₫",
+        "originalPrice": "298.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "30.000₫",
+    "originalPrice": "35.000₫",
+    "discount": "-14%",
+    "rating": "4.6",
+    "sold": "853"
   },
   {
     "id": 28,
+    "categoryid": 3,
     "name": "Gạch bê tông khí chưng áp",
-    "categoryId": 3,
-    "img": "",
-    "price": 4000,
-    "unit": "m2",
-    "stock": 382
+    "imageKey": "sp28",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch bê tông khí chưng áp (AAC) được sản xuất từ xi măng, cát thạch anh và chất tạo bọt, nung trong lò hơi áp suất cao. Sản phẩm nhẹ, cách nhiệt tốt và chống thấm hiệu quả.",
+    "specs": {
+      "Loại gạch": "Bê tông khí chưng áp",
+      "Tỷ trọng": "600 kg/m³",
+      "Cường độ nén": "≥ 25 kG/cm²",
+      "Cách nhiệt": "Xuất sắc",
+      "Tiêu chuẩn": "TCVN 7959:2011"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "40.000₫",
+        "originalPrice": "48.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "194.000₫",
+        "originalPrice": "216.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "375.000₫",
+        "originalPrice": "408.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "40.000₫",
+    "originalPrice": "48.000₫",
+    "discount": "-16%",
+    "rating": "4.7",
+    "sold": "483"
   },
   {
     "id": 29,
+    "categoryid": 3,
     "name": "Gạch đỏ thủ công 5x10x20",
-    "categoryId": 3,
-    "img": "",
-    "price": 1000,
-    "unit": "viên",
-    "stock": 409
+    "imageKey": "sp29",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch đỏ thủ công 5x10x20 sản xuất theo phương pháp truyền thống, được ưa chuộng trong các công trình mang phong cách rustic và vintage. Màu sắc tự nhiên, bề mặt xù xì tạo nét đẹp đặc trưng.",
+    "specs": {
+      "Kích thước": "5 x 10 x 20 cm",
+      "Loại gạch": "Gạch đỏ thủ công",
+      "Cường độ nén": "≥ 50 kG/cm²",
+      "Ứng dụng": "Trang trí nội ngoại thất, xây dựng",
+      "Màu sắc": "Đỏ gạch tự nhiên"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "15.000₫",
+        "originalPrice": "18.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "73.000₫",
+        "originalPrice": "81.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "141.000₫",
+        "originalPrice": "153.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "15.000₫",
+    "originalPrice": "18.000₫",
+    "discount": "-16%",
+    "rating": "5",
+    "sold": "4116"
   },
   {
     "id": 30,
+    "categoryid": 3,
     "name": "Gạch tuy nen 6x10x22",
-    "categoryId": 3,
-    "img": "",
-    "price": 1000,
-    "unit": "nghìn viên",
-    "stock": 329
+    "imageKey": "sp30",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch tuy nen 6x10x22 sản xuất bằng lò nung tuy nen hiện đại, cho chất lượng đồng đều và ổn định. Màu sắc đỏ đẹp, cường độ cao, phù hợp cho mọi công trình xây dựng.",
+    "specs": {
+      "Kích thước": "6 x 10 x 22 cm",
+      "Loại gạch": "Gạch nung tuy nen",
+      "Cường độ nén": "≥ 75 kG/cm²",
+      "Ứng dụng": "Xây tường, tường chịu lực",
+      "Tiêu chuẩn": "TCVN 1451:1998"
+    },
+    "variants": [
+      {
+        "name": "10 Viên",
+        "price": "12.000₫",
+        "originalPrice": "14.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "50 Viên",
+        "price": "58.000₫",
+        "originalPrice": "63.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "100 Viên",
+        "price": "111.000₫",
+        "originalPrice": "119.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "12.000₫",
+    "originalPrice": "14.000₫",
+    "discount": "-14%",
+    "rating": "4.8",
+    "sold": "2235"
   },
   {
     "id": 31,
+    "categoryid": 4,
     "name": "Gạch ceramic 30x30 bóng",
-    "categoryId": 4,
-    "img": "",
-    "price": 76000,
-    "unit": "viên",
-    "stock": 264
+    "imageKey": "sp31",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch ceramic 30x30 bóng láng phù hợp lát nền nhà, nhà tắm, nhà bếp và các khu vực trong nhà. Bề mặt bóng bắt sáng đẹp, dễ lau chùi và kháng khuẩn tốt.",
+    "specs": {
+      "Kích thước": "30 x 30 cm",
+      "Loại gạch": "Ceramic bóng",
+      "Độ dày": "7mm",
+      "Độ hút nước": "≤ 10%",
+      "Ứng dụng": "Lát nền nhà, nhà tắm, nhà bếp"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "15.000₫",
+        "originalPrice": "18.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "146.000₫",
+        "originalPrice": "162.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "351.000₫",
+        "originalPrice": "382.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "15.000₫",
+    "originalPrice": "18.000₫",
+    "discount": "-16%",
+    "rating": "4.5",
+    "sold": "9,1k"
   },
   {
     "id": 32,
+    "categoryid": 4,
     "name": "Gạch ceramic 40x40 mờ",
-    "categoryId": 4,
-    "img": "",
-    "price": 89000,
-    "unit": "m2",
-    "stock": 162
+    "imageKey": "sp32",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch ceramic 40x40 mờ có bề mặt nhám chống trơn trượt tốt, phù hợp cho sân, hành lang và không gian ngoài trời. Độ bền màu cao, không bị ảnh hưởng bởi tia UV.",
+    "specs": {
+      "Kích thước": "40 x 40 cm",
+      "Loại gạch": "Ceramic mờ",
+      "Độ dày": "8mm",
+      "Độ hút nước": "≤ 10%",
+      "Ứng dụng": "Sân, hành lang, không gian ngoài trời"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "25.000₫",
+        "originalPrice": "30.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "243.000₫",
+        "originalPrice": "270.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "587.000₫",
+        "originalPrice": "638.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "25.000₫",
+    "originalPrice": "30.000₫",
+    "discount": "-16%",
+    "rating": "4.8",
+    "sold": "3697"
   },
   {
     "id": 33,
+    "categoryid": 4,
     "name": "Gạch ceramic 60x60 bóng",
-    "categoryId": 4,
-    "img": "",
-    "price": 104000,
-    "unit": "thùng",
-    "stock": 279
+    "imageKey": "sp33",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch ceramic 60x60 bóng kích thước lớn tạo không gian rộng rãi và sang trọng. Bề mặt bóng mịn phản chiếu ánh sáng đẹp, phù hợp cho phòng khách và các khu vực đại sảnh.",
+    "specs": {
+      "Kích thước": "60 x 60 cm",
+      "Loại gạch": "Ceramic bóng",
+      "Độ dày": "9mm",
+      "Độ hút nước": "≤ 10%",
+      "Ứng dụng": "Phòng khách, đại sảnh, showroom"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "60.000₫",
+        "originalPrice": "70.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "580.000₫",
+        "originalPrice": "630.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "1.384.000₫",
+        "originalPrice": "1.488.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "60.000₫",
+    "originalPrice": "70.000₫",
+    "discount": "-14%",
+    "rating": "4.8",
+    "sold": "8,5k"
   },
   {
     "id": 34,
+    "categoryid": 4,
     "name": "Gạch porcelain 60x60 siêu bóng",
-    "categoryId": 4,
-    "img": "",
-    "price": 178000,
-    "unit": "viên",
-    "stock": 351
+    "imageKey": "sp34",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch porcelain 60x60 siêu bóng độ cứng cao, chịu mài mòn xuất sắc và thẩm mỹ sang trọng. Thích hợp cho các không gian cao cấp như khách sạn, văn phòng và nhà ở hiện đại.",
+    "specs": {
+      "Kích thước": "60 x 60 cm",
+      "Loại gạch": "Porcelain siêu bóng",
+      "Độ dày": "10mm",
+      "Độ hút nước": "≤ 0.5%",
+      "Độ cứng": "7 Mohs"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "80.000₫",
+        "originalPrice": "95.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "778.000₫",
+        "originalPrice": "855.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "1.857.000₫",
+        "originalPrice": "2.019.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "80.000₫",
+    "originalPrice": "95.000₫",
+    "discount": "-15%",
+    "rating": "4.7",
+    "sold": "272"
   },
   {
     "id": 35,
+    "categoryid": 4,
     "name": "Gạch porcelain 80x80 siêu bóng",
-    "categoryId": 4,
-    "img": "",
-    "price": 217000,
-    "unit": "m2",
-    "stock": 192
+    "imageKey": "sp35",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch porcelain 80x80 siêu bóng kích thước đại, tạo cảm giác không gian rộng mở và đẳng cấp. Độ hút nước cực thấp, chống ố vàng và dễ vệ sinh, phù hợp cho các không gian VIP.",
+    "specs": {
+      "Kích thước": "80 x 80 cm",
+      "Loại gạch": "Porcelain siêu bóng",
+      "Độ dày": "11mm",
+      "Độ hút nước": "≤ 0.5%",
+      "Độ cứng": "7 Mohs"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "120.000₫",
+        "originalPrice": "140.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "1.159.000₫",
+        "originalPrice": "1.260.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "2.767.000₫",
+        "originalPrice": "2.975.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "120.000₫",
+    "originalPrice": "140.000₫",
+    "discount": "-14%",
+    "rating": "4.9",
+    "sold": "538"
   },
   {
     "id": 36,
+    "categoryid": 4,
     "name": "Gạch granite 60x60 tự nhiên",
-    "categoryId": 4,
-    "img": "",
-    "price": 169000,
-    "unit": "thùng",
-    "stock": 464
+    "imageKey": "sp36",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch granite 60x60 vân tự nhiên mô phỏng đá granite thật với hoa văn đẹp và độc đáo. Độ bền cao, kháng acid và hóa chất, phù hợp cho cả không gian trong và ngoài nhà.",
+    "specs": {
+      "Kích thước": "60 x 60 cm",
+      "Loại gạch": "Granite nhân tạo",
+      "Độ dày": "10mm",
+      "Độ hút nước": "≤ 0.5%",
+      "Ứng dụng": "Trong nhà và ngoài trời"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "65.000₫",
+        "originalPrice": "75.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "621.000₫",
+        "originalPrice": "675.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "1.498.000₫",
+        "originalPrice": "1.594.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "65.000₫",
+    "originalPrice": "75.000₫",
+    "discount": "-13%",
+    "rating": "4.5",
+    "sold": "2,4k"
   },
   {
     "id": 37,
+    "categoryid": 4,
     "name": "Gạch granite 80x80 xám",
-    "categoryId": 4,
-    "img": "",
-    "price": 267000,
-    "unit": "viên",
-    "stock": 495
+    "imageKey": "sp37",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch granite 80x80 màu xám hiện đại, phong cách tối giản được ưa chuộng trong thiết kế nội thất đương đại. Bề mặt phẳng mịn, chịu lực tốt và dễ bảo dưỡng.",
+    "specs": {
+      "Kích thước": "80 x 80 cm",
+      "Loại gạch": "Granite xám",
+      "Độ dày": "11mm",
+      "Độ hút nước": "≤ 0.5%",
+      "Màu sắc": "Xám hiện đại"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "130.000₫",
+        "originalPrice": "150.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "1.242.000₫",
+        "originalPrice": "1.350.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "2.997.000₫",
+        "originalPrice": "3.188.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "130.000₫",
+    "originalPrice": "150.000₫",
+    "discount": "-13%",
+    "rating": "4.9",
+    "sold": "7,9k"
   },
   {
     "id": 38,
+    "categoryid": 4,
     "name": "Gạch granite 120x60",
-    "categoryId": 4,
-    "img": "",
-    "price": 295000,
-    "unit": "m2",
-    "stock": 53
+    "imageKey": "sp38",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch granite 120x60 khổ lớn tạo cảm giác không gian khoáng đạt với ít đường ron. Phù hợp cho đại sảnh khách sạn, trung tâm thương mại và các không gian thương mại cao cấp.",
+    "specs": {
+      "Kích thước": "120 x 60 cm",
+      "Loại gạch": "Granite khổ lớn",
+      "Độ dày": "11mm",
+      "Độ hút nước": "≤ 0.5%",
+      "Ứng dụng": "Đại sảnh, TTTM cao cấp"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "200.000₫",
+        "originalPrice": "230.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "1.904.000₫",
+        "originalPrice": "2.070.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "4.595.000₫",
+        "originalPrice": "4.888.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "200.000₫",
+    "originalPrice": "230.000₫",
+    "discount": "-13%",
+    "rating": "4.6",
+    "sold": "5915"
   },
   {
     "id": 39,
+    "categoryid": 4,
     "name": "Gạch thạch anh 60x60",
-    "categoryId": 4,
-    "img": "",
-    "price": 182000,
-    "unit": "thùng",
-    "stock": 438
+    "imageKey": "sp39",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch thạch anh 60x60 được sản xuất từ nguyên liệu thạch anh tự nhiên, cho bề mặt cứng và bền hơn gạch thông thường. Kháng trầy xước và hóa chất, phù hợp cho khu vực có lưu lượng đi lại cao.",
+    "specs": {
+      "Kích thước": "60 x 60 cm",
+      "Loại gạch": "Thạch anh",
+      "Độ dày": "10mm",
+      "Độ cứng": "≥ 8 Mohs",
+      "Ứng dụng": "Khu vực lưu lượng cao, bếp"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "55.000₫",
+        "originalPrice": "65.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "532.000₫",
+        "originalPrice": "585.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "1.271.000₫",
+        "originalPrice": "1.381.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "55.000₫",
+    "originalPrice": "65.000₫",
+    "discount": "-15%",
+    "rating": "4.5",
+    "sold": "8,2k"
   },
   {
     "id": 40,
+    "categoryid": 4,
     "name": "Gạch ốp tường 30x60 trắng",
-    "categoryId": 4,
-    "img": "",
-    "price": 86000,
-    "unit": "viên",
-    "stock": 462
+    "imageKey": "sp40",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Gạch ốp tường 30x60 màu trắng sạch tạo không gian sáng sủa và rộng rãi cho phòng tắm, nhà bếp và các khu vực ốp tường. Bề mặt nhẵn bóng, dễ vệ sinh và kháng nấm mốc.",
+    "specs": {
+      "Kích thước": "30 x 60 cm",
+      "Loại gạch": "Ốp tường ceramic",
+      "Độ dày": "8mm",
+      "Màu sắc": "Trắng sáng",
+      "Ứng dụng": "Ốp tường nhà tắm, bếp"
+    },
+    "variants": [
+      {
+        "name": "1 Viên",
+        "price": "20.000₫",
+        "originalPrice": "25.000₫",
+        "discount": "-20%"
+      },
+      {
+        "name": "1 Hộp",
+        "price": "198.000₫",
+        "originalPrice": "225.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "1 Thùng",
+        "price": "478.000₫",
+        "originalPrice": "531.000₫",
+        "discount": "-10%"
+      }
+    ],
+    "currentPrice": "20.000₫",
+    "originalPrice": "25.000₫",
+    "discount": "-20%",
+    "rating": "4.6",
+    "sold": "2,4k"
   },
   {
     "id": 41,
+    "categoryid": 5,
     "name": "Sơn nội thất Dulux EasyCare",
-    "categoryId": 5,
-    "img": "",
-    "price": 173000,
-    "unit": "lít",
-    "stock": 131
+    "imageKey": "sp41",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sơn nội thất Dulux EasyCare nổi tiếng với khả năng kháng khuẩn và chùi rửa dễ dàng. Bề mặt sau khi sơn mịn đẹp, bền màu lâu dài, phù hợp cho phòng khách, phòng ngủ và văn phòng.",
+    "specs": {
+      "Thương hiệu": "Dulux",
+      "Loại sơn": "Nội thất kháng khuẩn",
+      "Diện tích phủ": "12 - 14 m²/lít/lớp",
+      "Số lớp sơn": "2 lớp",
+      "Bảo hành màu": "5 năm"
+    },
+    "variants": [
+      {
+        "name": "Lon 1 Lít",
+        "price": "180.000₫",
+        "originalPrice": "200.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "Lon 5 Lít",
+        "price": "846.000₫",
+        "originalPrice": "900.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "Thùng 18 Lít",
+        "price": "2.907.000₫",
+        "originalPrice": "3.060.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "180.000₫",
+    "originalPrice": "200.000₫",
+    "discount": "-10%",
+    "rating": "4.9",
+    "sold": "770"
   },
   {
     "id": 42,
+    "categoryid": 5,
     "name": "Sơn ngoại thất Dulux WeatherShield",
-    "categoryId": 5,
-    "img": "",
-    "price": 162000,
-    "unit": "thùng 5L",
-    "stock": 407
+    "imageKey": "sp42",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sơn ngoại thất Dulux WeatherShield bảo vệ tường nhà trước thời tiết khắc nghiệt, chống thấm nước và chống tia UV. Màu sắc bền lâu, không bị bong tróc hay phai màu dưới nắng mưa.",
+    "specs": {
+      "Thương hiệu": "Dulux",
+      "Loại sơn": "Ngoại thất chống thấm",
+      "Diện tích phủ": "10 - 12 m²/lít/lớp",
+      "Số lớp sơn": "2 lớp",
+      "Bảo hành màu": "7 năm"
+    },
+    "variants": [
+      {
+        "name": "Lon 1 Lít",
+        "price": "190.000₫",
+        "originalPrice": "215.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "Lon 5 Lít",
+        "price": "900.000₫",
+        "originalPrice": "968.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "Thùng 18 Lít",
+        "price": "3.093.000₫",
+        "originalPrice": "3.290.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "190.000₫",
+    "originalPrice": "215.000₫",
+    "discount": "-11%",
+    "rating": "4.7",
+    "sold": "29k"
   },
   {
     "id": 43,
+    "categoryid": 5,
     "name": "Sơn Jotun Majestic nội thất",
-    "categoryId": 5,
-    "img": "",
-    "price": 173000,
-    "unit": "thùng 18L",
-    "stock": 266
+    "imageKey": "sp43",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sơn Jotun Majestic nội thất cao cấp với công thức đặc biệt giúp che phủ hoàn hảo và bề mặt siêu mịn. Kháng bụi bẩn, dễ lau chùi và không độc hại, an toàn cho gia đình và trẻ em.",
+    "specs": {
+      "Thương hiệu": "Jotun",
+      "Loại sơn": "Nội thất cao cấp",
+      "Diện tích phủ": "14 - 16 m²/lít/lớp",
+      "Số lớp sơn": "2 lớp",
+      "Đặc tính": "Kháng bụi, an toàn trẻ em"
+    },
+    "variants": [
+      {
+        "name": "Lon 1 Lít",
+        "price": "170.000₫",
+        "originalPrice": "190.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "Lon 5 Lít",
+        "price": "804.000₫",
+        "originalPrice": "855.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "Thùng 18 Lít",
+        "price": "2.762.000₫",
+        "originalPrice": "2.907.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "170.000₫",
+    "originalPrice": "190.000₫",
+    "discount": "-10%",
+    "rating": "5",
+    "sold": "74k"
   },
   {
     "id": 44,
+    "categoryid": 5,
     "name": "Sơn Jotun Jotashield ngoại thất",
-    "categoryId": 5,
-    "img": "",
-    "price": 182000,
-    "unit": "lít",
-    "stock": 224
+    "imageKey": "sp44",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sơn Jotun Jotashield ngoại thất bảo vệ công trình trước các điều kiện thời tiết nhiệt đới khắc nghiệt. Công nghệ chống rêu mốc tiên tiến, giữ màu đẹp lâu dài ngay cả trong mùa mưa.",
+    "specs": {
+      "Thương hiệu": "Jotun",
+      "Loại sơn": "Ngoại thất chống rêu mốc",
+      "Diện tích phủ": "12 - 14 m²/lít/lớp",
+      "Số lớp sơn": "2 lớp",
+      "Bảo hành màu": "8 năm"
+    },
+    "variants": [
+      {
+        "name": "Lon 1 Lít",
+        "price": "185.000₫",
+        "originalPrice": "205.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "Lon 5 Lít",
+        "price": "876.000₫",
+        "originalPrice": "922.000₫",
+        "discount": "-5%"
+      },
+      {
+        "name": "Thùng 18 Lít",
+        "price": "3.011.000₫",
+        "originalPrice": "3.136.000₫",
+        "discount": "-4%"
+      }
+    ],
+    "currentPrice": "185.000₫",
+    "originalPrice": "205.000₫",
+    "discount": "-9%",
+    "rating": "4.5",
+    "sold": "15k"
   },
   {
     "id": 45,
+    "categoryid": 5,
     "name": "Sơn Nippon Odour-less nội thất",
-    "categoryId": 5,
-    "img": "",
-    "price": 153000,
-    "unit": "thùng 5L",
-    "stock": 192
+    "imageKey": "sp45",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sơn Nippon Odour-less nội thất không mùi, an toàn tuyệt đối cho sức khỏe người dùng ngay cả khi thi công trong phòng kín. Che phủ tốt, bề mặt mịn đẹp và bền màu lâu dài.",
+    "specs": {
+      "Thương hiệu": "Nippon",
+      "Loại sơn": "Nội thất không mùi",
+      "Diện tích phủ": "13 - 15 m²/lít/lớp",
+      "Số lớp sơn": "2 lớp",
+      "Đặc tính": "Không VOC, không mùi"
+    },
+    "variants": [
+      {
+        "name": "Lon 1 Lít",
+        "price": "160.000₫",
+        "originalPrice": "180.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "Lon 5 Lít",
+        "price": "753.000₫",
+        "originalPrice": "810.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "Thùng 18 Lít",
+        "price": "2.589.000₫",
+        "originalPrice": "2.754.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "160.000₫",
+    "originalPrice": "180.000₫",
+    "discount": "-11%",
+    "rating": "5",
+    "sold": "318"
   },
   {
     "id": 46,
+    "categoryid": 5,
     "name": "Sơn Nippon Weatherbond ngoại thất",
-    "categoryId": 5,
-    "img": "",
-    "price": 171000,
-    "unit": "thùng 18L",
-    "stock": 129
+    "imageKey": "sp46",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sơn Nippon Weatherbond ngoại thất chống chịu thời tiết khắc nghiệt với công thức chống thấm và chống tia UV cực mạnh. Màu sắc đa dạng, phù hợp cho mọi phong cách kiến trúc.",
+    "specs": {
+      "Thương hiệu": "Nippon",
+      "Loại sơn": "Ngoại thất chống thấm UV",
+      "Diện tích phủ": "11 - 13 m²/lít/lớp",
+      "Số lớp sơn": "2 lớp",
+      "Bảo hành màu": "6 năm"
+    },
+    "variants": [
+      {
+        "name": "Lon 1 Lít",
+        "price": "175.000₫",
+        "originalPrice": "195.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "Lon 5 Lít",
+        "price": "825.000₫",
+        "originalPrice": "878.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "Thùng 18 Lít",
+        "price": "2.835.000₫",
+        "originalPrice": "2.984.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "175.000₫",
+    "originalPrice": "195.000₫",
+    "discount": "-10%",
+    "rating": "4.5",
+    "sold": "3,9k"
   },
   {
     "id": 47,
+    "categoryid": 5,
     "name": "Sơn Kova nội thất C-20",
-    "categoryId": 5,
-    "img": "",
-    "price": 107000,
-    "unit": "lít",
-    "stock": 160
+    "imageKey": "sp47",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sơn Kova nội thất C-20 thương hiệu Việt Nam uy tín, chất lượng tốt với giá thành hợp lý. Bề mặt mịn đẹp, che phủ tốt và bền màu, phù hợp cho mọi công trình dân dụng.",
+    "specs": {
+      "Thương hiệu": "Kova",
+      "Loại sơn": "Nội thất C-20",
+      "Diện tích phủ": "12 - 14 m²/lít/lớp",
+      "Số lớp sơn": "2 lớp",
+      "Xuất xứ": "Việt Nam"
+    },
+    "variants": [
+      {
+        "name": "Lon 1 Lít",
+        "price": "120.000₫",
+        "originalPrice": "140.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "Lon 5 Lít",
+        "price": "580.000₫",
+        "originalPrice": "630.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "Thùng 18 Lít",
+        "price": "1.992.000₫",
+        "originalPrice": "2.142.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "120.000₫",
+    "originalPrice": "140.000₫",
+    "discount": "-14%",
+    "rating": "4.6",
+    "sold": "5,6k"
   },
   {
     "id": 48,
+    "categoryid": 5,
     "name": "Sơn Kova ngoại thất C-23",
-    "categoryId": 5,
-    "img": "",
-    "price": 109000,
-    "unit": "thùng 5L",
-    "stock": 440
+    "imageKey": "sp48",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sơn Kova ngoại thất C-23 bảo vệ tường nhà trước mưa nắng nhiệt đới. Công thức chống thấm tốt, kháng rêu mốc và bền màu nhiều năm với chi phí tiết kiệm cho chủ công trình.",
+    "specs": {
+      "Thương hiệu": "Kova",
+      "Loại sơn": "Ngoại thất C-23",
+      "Diện tích phủ": "10 - 12 m²/lít/lớp",
+      "Số lớp sơn": "2 lớp",
+      "Đặc tính": "Chống thấm, kháng rêu mốc"
+    },
+    "variants": [
+      {
+        "name": "Lon 1 Lít",
+        "price": "135.000₫",
+        "originalPrice": "155.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "Lon 5 Lít",
+        "price": "649.000₫",
+        "originalPrice": "698.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "Thùng 18 Lít",
+        "price": "2.230.000₫",
+        "originalPrice": "2.372.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "135.000₫",
+    "originalPrice": "155.000₫",
+    "discount": "-12%",
+    "rating": "5",
+    "sold": "6,9k"
   },
   {
     "id": 49,
+    "categoryid": 5,
     "name": "Chống thấm Sika 107",
-    "categoryId": 5,
-    "img": "",
-    "price": 195000,
-    "unit": "thùng 20kg",
-    "stock": 222
+    "imageKey": "sp49",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Chống thấm Sika 107 hệ hai thành phần xi măng polymer, tạo màng chống thấm đàn hồi bền chắc. Phù hợp cho mái nhà, sàn vệ sinh, hầm, hồ bơi và các bề mặt bê tông cần chống thấm.",
+    "specs": {
+      "Thương hiệu": "Sika",
+      "Loại sản phẩm": "Chống thấm 2 thành phần",
+      "Độ dày màng": "1.5 - 2mm",
+      "Ứng dụng": "Mái, sàn vệ sinh, hầm, hồ bơi",
+      "Tiêu chuẩn": "EN 14891"
+    },
+    "variants": [
+      {
+        "name": "1 Kg",
+        "price": "45.000₫",
+        "originalPrice": "50.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "5 Kg",
+        "price": "212.000₫",
+        "originalPrice": "225.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "Thùng 20 Kg",
+        "price": "808.000₫",
+        "originalPrice": "850.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "45.000₫",
+    "originalPrice": "50.000₫",
+    "discount": "-10%",
+    "rating": "4.6",
+    "sold": "6442"
   },
   {
     "id": 50,
+    "categoryid": 5,
     "name": "Chống thấm Sika Top 107 Seal",
-    "categoryId": 5,
-    "img": "",
-    "price": 205000,
-    "unit": "thùng 5kg",
-    "stock": 102
+    "imageKey": "sp50",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sika Top 107 Seal chống thấm tích cực áp lực dương và âm, ngăn chặn nước xâm nhập ngay cả khi bề mặt đang có áp lực nước. Lý tưởng cho hầm ngầm, bể chứa nước và tầng hầm.",
+    "specs": {
+      "Thương hiệu": "Sika",
+      "Loại sản phẩm": "Chống thấm áp lực cao",
+      "Cường độ nén": "≥ 25 MPa",
+      "Ứng dụng": "Hầm ngầm, bể nước, tầng hầm",
+      "Khả năng": "Chịu áp lực nước âm dương"
+    },
+    "variants": [
+      {
+        "name": "1 Kg",
+        "price": "55.000₫",
+        "originalPrice": "65.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "5 Kg",
+        "price": "266.000₫",
+        "originalPrice": "292.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "Thùng 20 Kg",
+        "price": "1.017.000₫",
+        "originalPrice": "1.105.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "55.000₫",
+    "originalPrice": "65.000₫",
+    "discount": "-15%",
+    "rating": "4.7",
+    "sold": "2,7k"
   },
   {
     "id": 51,
+    "categoryid": 6,
     "name": "Dây điện đơn 1.5mm² Cadivi",
-    "categoryId": 6,
-    "img": "",
-    "price": 17000,
-    "unit": "m",
-    "stock": 97
+    "imageKey": "sp51",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Dây điện đơn 1.5mm² Cadivi thương hiệu Việt Nam uy tín, dùng cho mạng điện chiếu sáng và ổ cắm trong nhà. Lõi đồng nguyên chất, vỏ bọc PVC chịu nhiệt, an toàn và bền lâu.",
+    "specs": {
+      "Thương hiệu": "Cadivi",
+      "Tiết diện": "1.5 mm²",
+      "Vỏ bọc": "PVC chịu nhiệt",
+      "Điện áp": "450/750V",
+      "Tiêu chuẩn": "TCVN 5935:2013"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "5.000₫",
+        "originalPrice": "6.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "10 Mét",
+        "price": "49.000₫",
+        "originalPrice": "54.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "Cuộn 100m",
+        "price": "469.000₫",
+        "originalPrice": "510.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "5.000₫",
+    "originalPrice": "6.000₫",
+    "discount": "-16%",
+    "rating": "4.8",
+    "sold": "5,4k"
   },
   {
     "id": 52,
+    "categoryid": 6,
     "name": "Dây điện đôi 2.5mm² Cadivi",
-    "categoryId": 6,
-    "img": "",
-    "price": 38000,
-    "unit": "cuộn 100m",
-    "stock": 244
+    "imageKey": "sp52",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Dây điện đôi 2.5mm² Cadivi phù hợp cho mạch ổ cắm điện và thiết bị tiêu thụ điện trung bình. Lõi đồng mềm nhiều sợi, dễ đi dây và uốn cong, vỏ PVC bền chịu nhiệt tốt.",
+    "specs": {
+      "Thương hiệu": "Cadivi",
+      "Tiết diện": "2.5 mm²",
+      "Vỏ bọc": "PVC chịu nhiệt",
+      "Điện áp": "450/750V",
+      "Tiêu chuẩn": "TCVN 5935:2013"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "8.000₫",
+        "originalPrice": "10.000₫",
+        "discount": "-20%"
+      },
+      {
+        "name": "10 Mét",
+        "price": "79.000₫",
+        "originalPrice": "90.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "Cuộn 100m",
+        "price": "765.000₫",
+        "originalPrice": "850.000₫",
+        "discount": "-10%"
+      }
+    ],
+    "currentPrice": "8.000₫",
+    "originalPrice": "10.000₫",
+    "discount": "-20%",
+    "rating": "4.7",
+    "sold": "9346"
   },
   {
     "id": 53,
+    "categoryid": 6,
     "name": "Dây điện đôi 4mm² Cadivi",
-    "categoryId": 6,
-    "img": "",
-    "price": 50000,
-    "unit": "m",
-    "stock": 99
+    "imageKey": "sp53",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Dây điện đôi 4mm² Cadivi dùng cho mạch dẫn điện công suất lớn như máy lạnh, bếp điện và các thiết bị điện gia dụng công suất cao. Chịu dòng điện lớn an toàn, vỏ bọc chống cháy.",
+    "specs": {
+      "Thương hiệu": "Cadivi",
+      "Tiết diện": "4 mm²",
+      "Vỏ bọc": "PVC chống cháy",
+      "Điện áp": "450/750V",
+      "Tiêu chuẩn": "TCVN 5935:2013"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "12.000₫",
+        "originalPrice": "15.000₫",
+        "discount": "-20%"
+      },
+      {
+        "name": "10 Mét",
+        "price": "119.000₫",
+        "originalPrice": "135.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "Cuộn 100m",
+        "price": "1.148.000₫",
+        "originalPrice": "1.275.000₫",
+        "discount": "-10%"
+      }
+    ],
+    "currentPrice": "12.000₫",
+    "originalPrice": "15.000₫",
+    "discount": "-20%",
+    "rating": "4.5",
+    "sold": "168"
   },
   {
     "id": 54,
+    "categoryid": 6,
     "name": "Dây điện đơn 6mm² Cadivi",
-    "categoryId": 6,
-    "img": "",
-    "price": 64000,
-    "unit": "cuộn 100m",
-    "stock": 233
+    "imageKey": "sp54",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Dây điện đơn 6mm² Cadivi dùng cho tủ điện tổng, dây dẫn chính và các thiết bị công suất rất lớn. Lõi đồng chất lượng cao, khả năng tải điện vượt trội và an toàn cháy nổ.",
+    "specs": {
+      "Thương hiệu": "Cadivi",
+      "Tiết diện": "6 mm²",
+      "Vỏ bọc": "PVC chống cháy",
+      "Điện áp": "450/750V",
+      "Tiêu chuẩn": "TCVN 5935:2013"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "18.000₫",
+        "originalPrice": "22.000₫",
+        "discount": "-18%"
+      },
+      {
+        "name": "10 Mét",
+        "price": "176.000₫",
+        "originalPrice": "198.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "Cuộn 100m",
+        "price": "1.702.000₫",
+        "originalPrice": "1.870.000₫",
+        "discount": "-9%"
+      }
+    ],
+    "currentPrice": "18.000₫",
+    "originalPrice": "22.000₫",
+    "discount": "-18%",
+    "rating": "4.9",
+    "sold": "494"
   },
   {
     "id": 55,
+    "categoryid": 6,
     "name": "Ổ cắm điện Sino Schneider",
-    "categoryId": 6,
-    "img": "",
-    "price": 36000,
-    "unit": "cái",
-    "stock": 483
+    "imageKey": "sp55",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ổ cắm điện Sino Schneider thiết kế hiện đại, an toàn với cửa chắn bảo vệ trẻ em. Tiếp điểm đồng nguyên chất đảm bảo dẫn điện tốt, chịu nhiệt và chống cháy theo tiêu chuẩn.",
+    "specs": {
+      "Thương hiệu": "Sino Schneider",
+      "Dòng điện": "16A",
+      "Điện áp": "250V",
+      "Màu sắc": "Trắng",
+      "Tiêu chuẩn": "IEC 60884"
+    },
+    "variants": [
+      {
+        "name": "1 Cái",
+        "price": "45.000₫",
+        "originalPrice": "50.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "5 Cái",
+        "price": "212.000₫",
+        "originalPrice": "225.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "10 Cái",
+        "price": "404.000₫",
+        "originalPrice": "425.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "45.000₫",
+    "originalPrice": "50.000₫",
+    "discount": "-10%",
+    "rating": "4.9",
+    "sold": "5,1k"
   },
   {
     "id": 56,
+    "categoryid": 6,
     "name": "Công tắc đơn Sino Schneider",
-    "categoryId": 6,
-    "img": "",
-    "price": 29000,
-    "unit": "bộ",
-    "stock": 226
+    "imageKey": "sp56",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Công tắc đơn Sino Schneider thiết kế thanh lịch, phù hợp với mọi phong cách nội thất hiện đại. Độ bền cơ học cao, tuổi thọ trên 40.000 lần đóng ngắt, tiếp điểm bạc bền lâu.",
+    "specs": {
+      "Thương hiệu": "Sino Schneider",
+      "Dòng điện": "10A",
+      "Điện áp": "250V",
+      "Màu sắc": "Trắng",
+      "Tiêu chuẩn": "IEC 60669"
+    },
+    "variants": [
+      {
+        "name": "1 Cái",
+        "price": "35.000₫",
+        "originalPrice": "40.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "5 Cái",
+        "price": "167.000₫",
+        "originalPrice": "180.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "10 Cái",
+        "price": "320.000₫",
+        "originalPrice": "340.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "35.000₫",
+    "originalPrice": "40.000₫",
+    "discount": "-12%",
+    "rating": "4.8",
+    "sold": "94k"
   },
   {
     "id": 57,
+    "categoryid": 6,
     "name": "Công tắc đôi Sino Schneider",
-    "categoryId": 6,
-    "img": "",
-    "price": 54000,
-    "unit": "cái",
-    "stock": 359
+    "imageKey": "sp57",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Công tắc đôi Sino Schneider cho phép điều khiển 2 mạch đèn riêng biệt từ một vị trí. Thiết kế gọn đẹp, an toàn và bền bỉ, phù hợp cho phòng khách và hành lang.",
+    "specs": {
+      "Thương hiệu": "Sino Schneider",
+      "Số cực": "2 cực",
+      "Dòng điện": "10A",
+      "Điện áp": "250V",
+      "Màu sắc": "Trắng"
+    },
+    "variants": [
+      {
+        "name": "1 Cái",
+        "price": "55.000₫",
+        "originalPrice": "65.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "5 Cái",
+        "price": "266.000₫",
+        "originalPrice": "292.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "10 Cái",
+        "price": "508.000₫",
+        "originalPrice": "552.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "55.000₫",
+    "originalPrice": "65.000₫",
+    "discount": "-15%",
+    "rating": "5",
+    "sold": "6,7k"
   },
   {
     "id": 58,
+    "categoryid": 6,
     "name": "Aptomat MCB 16A Schneider",
-    "categoryId": 6,
-    "img": "",
-    "price": 50000,
-    "unit": "cái",
-    "stock": 185
+    "imageKey": "sp58",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Aptomat MCB 16A Schneider bảo vệ mạch điện khỏi quá tải và ngắn mạch. Tốc độ ngắt nhanh, độ tin cậy cao, thiết kế nhỏ gọn phù hợp cho tủ điện gia đình và văn phòng.",
+    "specs": {
+      "Thương hiệu": "Schneider",
+      "Dòng định mức": "16A",
+      "Dòng cắt ngắn mạch": "6kA",
+      "Số cực": "1 cực",
+      "Tiêu chuẩn": "IEC 60898"
+    },
+    "variants": [
+      {
+        "name": "1 Cái",
+        "price": "60.000₫",
+        "originalPrice": "70.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "5 Cái",
+        "price": "290.000₫",
+        "originalPrice": "315.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "10 Cái",
+        "price": "553.000₫",
+        "originalPrice": "595.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "60.000₫",
+    "originalPrice": "70.000₫",
+    "discount": "-14%",
+    "rating": "4.8",
+    "sold": "5930"
   },
   {
     "id": 59,
+    "categoryid": 6,
     "name": "Aptomat MCB 20A Schneider",
-    "categoryId": 6,
-    "img": "",
-    "price": 67000,
-    "unit": "cái",
-    "stock": 463
+    "imageKey": "sp59",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Aptomat MCB 20A Schneider bảo vệ các mạch điện có công suất lớn hơn như điều hòa và bếp điện. Độ chính xác bảo vệ cao, tuổi thọ dài và dễ lắp đặt trong tủ điện.",
+    "specs": {
+      "Thương hiệu": "Schneider",
+      "Dòng định mức": "20A",
+      "Dòng cắt ngắn mạch": "6kA",
+      "Số cực": "1 cực",
+      "Tiêu chuẩn": "IEC 60898"
+    },
+    "variants": [
+      {
+        "name": "1 Cái",
+        "price": "65.000₫",
+        "originalPrice": "75.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "5 Cái",
+        "price": "311.000₫",
+        "originalPrice": "338.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "10 Cái",
+        "price": "600.000₫",
+        "originalPrice": "638.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "65.000₫",
+    "originalPrice": "75.000₫",
+    "discount": "-13%",
+    "rating": "4.7",
+    "sold": "6279"
   },
   {
     "id": 60,
+    "categoryid": 6,
     "name": "Aptomat MCB 32A Schneider",
-    "categoryId": 6,
-    "img": "",
-    "price": 80000,
-    "unit": "cái",
-    "stock": 72
+    "imageKey": "sp60",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Aptomat MCB 32A Schneider dùng cho mạch điện tổng của căn hộ hoặc tầng nhà. Khả năng bảo vệ mạnh mẽ, phù hợp cho tải điện lớn, đảm bảo an toàn hệ thống điện toàn nhà.",
+    "specs": {
+      "Thương hiệu": "Schneider",
+      "Dòng định mức": "32A",
+      "Dòng cắt ngắn mạch": "6kA",
+      "Số cực": "1 cực",
+      "Tiêu chuẩn": "IEC 60898"
+    },
+    "variants": [
+      {
+        "name": "1 Cái",
+        "price": "80.000₫",
+        "originalPrice": "95.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "5 Cái",
+        "price": "389.000₫",
+        "originalPrice": "428.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "10 Cái",
+        "price": "743.000₫",
+        "originalPrice": "808.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "80.000₫",
+    "originalPrice": "95.000₫",
+    "discount": "-15%",
+    "rating": "4.8",
+    "sold": "741"
   },
   {
     "id": 61,
+    "categoryid": 7,
     "name": "Ống nhựa PVC Tiền Phong D21",
-    "categoryId": 7,
-    "img": "",
-    "price": 14000,
-    "unit": "m",
-    "stock": 423
+    "imageKey": "sp61",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống nhựa PVC Tiền Phong D21 dùng cho hệ thống ống điện âm tường và ống cấp thoát nước nhỏ. Chất liệu PVC cứng bền, không gỉ sét, chịu lực ép và va đập tốt.",
+    "specs": {
+      "Thương hiệu": "Tiền Phong",
+      "Đường kính ngoài": "21mm",
+      "Vật liệu": "PVC uPVC",
+      "Áp suất": "PN10",
+      "Tiêu chuẩn": "TCVN 6151:2002"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "8.000₫",
+        "originalPrice": "10.000₫",
+        "discount": "-20%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "16.000₫",
+        "originalPrice": "18.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "89.000₫",
+        "originalPrice": "99.000₫",
+        "discount": "-10%"
+      }
+    ],
+    "currentPrice": "8.000₫",
+    "originalPrice": "10.000₫",
+    "discount": "-20%",
+    "rating": "4.9",
+    "sold": "6,2k"
   },
   {
     "id": 62,
+    "categoryid": 7,
     "name": "Ống nhựa PVC Tiền Phong D27",
-    "categoryId": 7,
-    "img": "",
-    "price": 21000,
-    "unit": "cây 4m",
-    "stock": 285
+    "imageKey": "sp62",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống nhựa PVC Tiền Phong D27 phù hợp cho đường ống cấp nước sinh hoạt và bảo vệ cáp điện. Độ bền cơ học cao, chống ăn mòn hóa học và vi sinh vật, an toàn cho nước uống.",
+    "specs": {
+      "Thương hiệu": "Tiền Phong",
+      "Đường kính ngoài": "27mm",
+      "Vật liệu": "PVC uPVC",
+      "Áp suất": "PN10",
+      "Tiêu chuẩn": "TCVN 6151:2002"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "12.000₫",
+        "originalPrice": "15.000₫",
+        "discount": "-20%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "24.000₫",
+        "originalPrice": "27.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "134.000₫",
+        "originalPrice": "149.000₫",
+        "discount": "-10%"
+      }
+    ],
+    "currentPrice": "12.000₫",
+    "originalPrice": "15.000₫",
+    "discount": "-20%",
+    "rating": "4.6",
+    "sold": "2193"
   },
   {
     "id": 63,
+    "categoryid": 7,
     "name": "Ống nhựa PVC Tiền Phong D34",
-    "categoryId": 7,
-    "img": "",
-    "price": 27000,
-    "unit": "cây 6m",
-    "stock": 324
+    "imageKey": "sp63",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống nhựa PVC Tiền Phong D34 dùng cho hệ thống cấp nước lạnh trong nhà và hệ thống tưới tiêu. Bề mặt trong nhẵn, ít cặn bám, lưu lượng nước ổn định trong thời gian dài.",
+    "specs": {
+      "Thương hiệu": "Tiền Phong",
+      "Đường kính ngoài": "34mm",
+      "Vật liệu": "PVC uPVC",
+      "Áp suất": "PN10",
+      "Tiêu chuẩn": "TCVN 6151:2002"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "18.000₫",
+        "originalPrice": "22.000₫",
+        "discount": "-18%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "36.000₫",
+        "originalPrice": "40.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "199.000₫",
+        "originalPrice": "219.000₫",
+        "discount": "-9%"
+      }
+    ],
+    "currentPrice": "18.000₫",
+    "originalPrice": "22.000₫",
+    "discount": "-18%",
+    "rating": "5",
+    "sold": "4,7k"
   },
   {
     "id": 64,
+    "categoryid": 7,
     "name": "Ống nhựa PVC Tiền Phong D42",
-    "categoryId": 7,
-    "img": "",
-    "price": 32000,
-    "unit": "m",
-    "stock": 113
+    "imageKey": "sp64",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống nhựa PVC Tiền Phong D42 sử dụng cho đường ống cấp nước chính và hệ thống thoát nước sinh hoạt. Khả năng chịu áp lực tốt, lắp đặt dễ dàng với phụ kiện đồng bộ.",
+    "specs": {
+      "Thương hiệu": "Tiền Phong",
+      "Đường kính ngoài": "42mm",
+      "Vật liệu": "PVC uPVC",
+      "Áp suất": "PN10",
+      "Tiêu chuẩn": "TCVN 6151:2002"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "25.000₫",
+        "originalPrice": "30.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "49.000₫",
+        "originalPrice": "54.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "274.000₫",
+        "originalPrice": "298.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "25.000₫",
+    "originalPrice": "30.000₫",
+    "discount": "-16%",
+    "rating": "5",
+    "sold": "1,2k"
   },
   {
     "id": 65,
+    "categoryid": 7,
     "name": "Ống nhựa PVC Tiền Phong D60",
-    "categoryId": 7,
-    "img": "",
-    "price": 64000,
-    "unit": "m",
-    "stock": 243
+    "imageKey": "sp65",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống nhựa PVC Tiền Phong D60 dùng cho đường ống thoát nước chính, hệ thống thoát sàn và ống dẫn nước lớn. Đường kính lớn đảm bảo thoát nước nhanh, ngăn ngừa tắc nghẽn.",
+    "specs": {
+      "Thương hiệu": "Tiền Phong",
+      "Đường kính ngoài": "60mm",
+      "Vật liệu": "PVC uPVC",
+      "Áp suất": "PN6",
+      "Ứng dụng": "Thoát nước sàn, ống dẫn nước lớn"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "40.000₫",
+        "originalPrice": "48.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "77.000₫",
+        "originalPrice": "86.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "439.000₫",
+        "originalPrice": "477.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "40.000₫",
+    "originalPrice": "48.000₫",
+    "discount": "-16%",
+    "rating": "4.5",
+    "sold": "3184"
   },
   {
     "id": 66,
+    "categoryid": 7,
     "name": "Ống HDPE chịu nhiệt D20",
-    "categoryId": 7,
-    "img": "",
-    "price": 24000,
-    "unit": "cuộn 50m",
-    "stock": 90
+    "imageKey": "sp66",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống HDPE chịu nhiệt D20 chịu được nhiệt độ cao đến 95°C, phù hợp cho hệ thống nước nóng lạnh. Vật liệu HDPE linh hoạt, chịu áp lực và không thôi nhiễm hóa chất vào nước.",
+    "specs": {
+      "Vật liệu": "HDPE",
+      "Đường kính": "20mm",
+      "Nhiệt độ làm việc": "≤ 95°C",
+      "Áp suất": "PN10",
+      "Ứng dụng": "Nước nóng lạnh sinh hoạt"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "15.000₫",
+        "originalPrice": "18.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "29.000₫",
+        "originalPrice": "32.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "165.000₫",
+        "originalPrice": "179.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "15.000₫",
+    "originalPrice": "18.000₫",
+    "discount": "-16%",
+    "rating": "4.8",
+    "sold": "9,7k"
   },
   {
     "id": 67,
+    "categoryid": 7,
     "name": "Ống HDPE chịu nhiệt D25",
-    "categoryId": 7,
-    "img": "",
-    "price": 28000,
-    "unit": "m",
-    "stock": 332
+    "imageKey": "sp67",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống HDPE chịu nhiệt D25 dùng cho hệ thống nước nóng lạnh trong căn hộ và nhà ở. Độ bền cao, chống ăn mòn, tuổi thọ trên 50 năm trong điều kiện bình thường.",
+    "specs": {
+      "Vật liệu": "HDPE",
+      "Đường kính": "25mm",
+      "Nhiệt độ làm việc": "≤ 95°C",
+      "Áp suất": "PN10",
+      "Tuổi thọ": "≥ 50 năm"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "22.000₫",
+        "originalPrice": "26.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "43.000₫",
+        "originalPrice": "47.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "238.000₫",
+        "originalPrice": "259.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "22.000₫",
+    "originalPrice": "26.000₫",
+    "discount": "-15%",
+    "rating": "4.8",
+    "sold": "4,5k"
   },
   {
     "id": 68,
+    "categoryid": 7,
     "name": "Ống PPR nóng lạnh D20",
-    "categoryId": 7,
-    "img": "",
-    "price": 26000,
-    "unit": "cây 4m",
-    "stock": 200
+    "imageKey": "sp68",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống PPR nóng lạnh D20 chất lượng cao, chịu nhiệt và chịu áp lực tốt cho hệ thống nước nóng lạnh. Kết nối bằng phương pháp hàn nhiệt đảm bảo mối nối chắc chắn, không rò rỉ.",
+    "specs": {
+      "Vật liệu": "PPR",
+      "Đường kính": "20mm",
+      "Nhiệt độ làm việc": "≤ 95°C",
+      "Áp suất": "PN20",
+      "Kết nối": "Hàn nhiệt"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "20.000₫",
+        "originalPrice": "24.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "39.000₫",
+        "originalPrice": "43.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "220.000₫",
+        "originalPrice": "239.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "20.000₫",
+    "originalPrice": "24.000₫",
+    "discount": "-16%",
+    "rating": "4.8",
+    "sold": "44k"
   },
   {
     "id": 69,
+    "categoryid": 7,
     "name": "Ống PPR nóng lạnh D25",
-    "categoryId": 7,
-    "img": "",
-    "price": 30000,
-    "unit": "m",
-    "stock": 474
+    "imageKey": "sp69",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống PPR nóng lạnh D25 phù hợp cho đường ống cấp nước chính trong căn hộ. Vật liệu PPR không độc hại, không ảnh hưởng đến mùi vị nước, an toàn cho nước sinh hoạt.",
+    "specs": {
+      "Vật liệu": "PPR",
+      "Đường kính": "25mm",
+      "Nhiệt độ làm việc": "≤ 95°C",
+      "Áp suất": "PN20",
+      "Kết nối": "Hàn nhiệt"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "30.000₫",
+        "originalPrice": "35.000₫",
+        "discount": "-14%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "58.000₫",
+        "originalPrice": "63.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "324.000₫",
+        "originalPrice": "348.000₫",
+        "discount": "-7%"
+      }
+    ],
+    "currentPrice": "30.000₫",
+    "originalPrice": "35.000₫",
+    "discount": "-14%",
+    "rating": "4.6",
+    "sold": "4,7k"
   },
   {
     "id": 70,
+    "categoryid": 7,
     "name": "Ống PPR nóng lạnh D32",
-    "categoryId": 7,
-    "img": "",
-    "price": 50000,
-    "unit": "cây 4m",
-    "stock": 371
+    "imageKey": "sp70",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Ống PPR nóng lạnh D32 dùng cho đường ống cấp nước chính tầng và hệ thống nước nóng trung tâm. Lưu lượng nước lớn, áp lực cao, phù hợp cho nhà nhiều phòng.",
+    "specs": {
+      "Vật liệu": "PPR",
+      "Đường kính": "32mm",
+      "Nhiệt độ làm việc": "≤ 95°C",
+      "Áp suất": "PN20",
+      "Ứng dụng": "Đường ống cấp nước chính tầng"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "50.000₫",
+        "originalPrice": "60.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "97.000₫",
+        "originalPrice": "108.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "1 Cây (4m)",
+        "price": "549.000₫",
+        "originalPrice": "597.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "50.000₫",
+    "originalPrice": "60.000₫",
+    "discount": "-16%",
+    "rating": "4.8",
+    "sold": "467"
   },
   {
     "id": 71,
+    "categoryid": 8,
     "name": "Bồn cầu 1 khối TOTO CS300",
-    "categoryId": 8,
-    "img": "",
-    "price": 2923000,
-    "unit": "cái",
-    "stock": 366
+    "imageKey": "sp71",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Bồn cầu 1 khối TOTO CS300 thiết kế liền khối sang trọng, dễ vệ sinh và tiết kiệm diện tích phòng tắm. Công nghệ xả mạnh CeFiONtect tiêu thụ chỉ 3.8L/lần xả, tiết kiệm nước tối đa.",
+    "specs": {
+      "Thương hiệu": "TOTO",
+      "Model": "CS300",
+      "Loại": "Bồn cầu 1 khối",
+      "Lượng nước xả": "3.8L/lần",
+      "Xuất xứ": "Nhật Bản"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "2.900.000₫",
+        "originalPrice": "3.300.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "5.524.000₫",
+        "originalPrice": "5.940.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "7.910.000₫",
+        "originalPrice": "8.415.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "2.900.000₫",
+    "originalPrice": "3.300.000₫",
+    "discount": "-12%",
+    "rating": "4.8",
+    "sold": "71k"
   },
   {
     "id": 72,
+    "categoryid": 8,
     "name": "Bồn cầu 2 khối Inax C-102",
-    "categoryId": 8,
-    "img": "",
-    "price": 2151000,
-    "unit": "bộ",
-    "stock": 491
+    "imageKey": "sp72",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Bồn cầu 2 khối Inax C-102 thiết kế truyền thống bền bỉ với két nước riêng biệt dễ bảo trì. Sứ vệ sinh cao cấp Inax chống bám bẩn, dễ lau chùi và bền màu lâu dài.",
+    "specs": {
+      "Thương hiệu": "Inax",
+      "Model": "C-102",
+      "Loại": "Bồn cầu 2 khối",
+      "Lượng nước xả": "6L/lần",
+      "Xuất xứ": "Nhật Bản"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "2.150.000₫",
+        "originalPrice": "2.450.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "4.101.000₫",
+        "originalPrice": "4.410.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "5.873.000₫",
+        "originalPrice": "6.248.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "2.150.000₫",
+    "originalPrice": "2.450.000₫",
+    "discount": "-12%",
+    "rating": "4.8",
+    "sold": "4613"
   },
   {
     "id": 73,
+    "categoryid": 8,
     "name": "Bồn cầu treo tường American Standard",
-    "categoryId": 8,
-    "img": "",
-    "price": 4400000,
-    "unit": "cái",
-    "stock": 235
+    "imageKey": "sp73",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Bồn cầu treo tường American Standard thiết kế hiện đại, tiết kiệm diện tích và dễ vệ sinh sàn phòng tắm. Két nước âm tường giấu kín tạo không gian phòng tắm gọn gàng và thẩm mỹ.",
+    "specs": {
+      "Thương hiệu": "American Standard",
+      "Loại": "Bồn cầu treo tường",
+      "Lượng nước xả": "4.5/6L",
+      "Độ cao lắp": "40 - 45cm",
+      "Xuất xứ": "Mỹ"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "4.400.000₫",
+        "originalPrice": "4.900.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "8.291.000₫",
+        "originalPrice": "8.820.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "11.870.000₫",
+        "originalPrice": "12.495.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "4.400.000₫",
+    "originalPrice": "4.900.000₫",
+    "discount": "-10%",
+    "rating": "4.7",
+    "sold": "6507"
   },
   {
     "id": 74,
+    "categoryid": 8,
     "name": "Lavabo đặt bàn Inax AL-2395V",
-    "categoryId": 8,
-    "img": "",
-    "price": 1253000,
-    "unit": "bộ",
-    "stock": 345
+    "imageKey": "sp74",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Lavabo đặt bàn Inax AL-2395V thiết kế tối giản sang trọng, phù hợp cho phòng tắm hiện đại. Chất liệu sứ cao cấp chống bám bẩn, bề mặt nhẵn bóng và dễ vệ sinh hàng ngày.",
+    "specs": {
+      "Thương hiệu": "Inax",
+      "Model": "AL-2395V",
+      "Loại": "Lavabo đặt bàn",
+      "Kích thước": "595 x 455mm",
+      "Xuất xứ": "Nhật Bản"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "1.250.000₫",
+        "originalPrice": "1.400.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "2.369.000₫",
+        "originalPrice": "2.520.000₫",
+        "discount": "-6%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "3.392.000₫",
+        "originalPrice": "3.570.000₫",
+        "discount": "-5%"
+      }
+    ],
+    "currentPrice": "1.250.000₫",
+    "originalPrice": "1.400.000₫",
+    "discount": "-10%",
+    "rating": "4.8",
+    "sold": "991"
   },
   {
     "id": 75,
+    "categoryid": 8,
     "name": "Lavabo treo tường Toto L710CR",
-    "categoryId": 8,
-    "img": "",
-    "price": 1847000,
-    "unit": "cái",
-    "stock": 148
+    "imageKey": "sp75",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Lavabo treo tường Toto L710CR tiết kiệm không gian với thiết kế gắn tường gọn gàng. Sứ Toto nổi tiếng với độ bóng cao và khả năng kháng bẩn tự nhiên, bền màu lâu dài.",
+    "specs": {
+      "Thương hiệu": "TOTO",
+      "Model": "L710CR",
+      "Loại": "Lavabo treo tường",
+      "Kích thước": "710 x 515mm",
+      "Xuất xứ": "Nhật Bản"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "1.850.000₫",
+        "originalPrice": "2.050.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "3.506.000₫",
+        "originalPrice": "3.690.000₫",
+        "discount": "-5%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "5.019.000₫",
+        "originalPrice": "5.228.000₫",
+        "discount": "-4%"
+      }
+    ],
+    "currentPrice": "1.850.000₫",
+    "originalPrice": "2.050.000₫",
+    "discount": "-9%",
+    "rating": "5",
+    "sold": "33k"
   },
   {
     "id": 76,
+    "categoryid": 8,
     "name": "Lavabo đặt bàn Caesar LF5255",
-    "categoryId": 8,
-    "img": "",
-    "price": 1465000,
-    "unit": "bộ",
-    "stock": 410
+    "imageKey": "sp76",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Lavabo đặt bàn Caesar LF5255 thiết kế châu Âu hiện đại với đường cong mềm mại tinh tế. Chất liệu sứ cao cấp bền chắc, phù hợp cho phòng tắm gia đình và khách sạn.",
+    "specs": {
+      "Thương hiệu": "Caesar",
+      "Model": "LF5255",
+      "Loại": "Lavabo đặt bàn",
+      "Kích thước": "525 x 450mm",
+      "Xuất xứ": "Đài Loan"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "1.450.000₫",
+        "originalPrice": "1.750.000₫",
+        "discount": "-17%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "2.835.000₫",
+        "originalPrice": "3.150.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "4.105.000₫",
+        "originalPrice": "4.462.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "1.450.000₫",
+    "originalPrice": "1.750.000₫",
+    "discount": "-17%",
+    "rating": "4.7",
+    "sold": "53k"
   },
   {
     "id": 77,
+    "categoryid": 8,
     "name": "Vòi sen tắm Hafele",
-    "categoryId": 8,
-    "img": "",
-    "price": 439000,
-    "unit": "cái",
-    "stock": 85
+    "imageKey": "sp77",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Vòi sen tắm Hafele thiết kế Đức tinh tế, mang lại trải nghiệm tắm sang trọng với nhiều chế độ phun nước. Chất liệu đồng thau và inox cao cấp chống ăn mòn, bền lâu trong môi trường ẩm ướt.",
+    "specs": {
+      "Thương hiệu": "Hafele",
+      "Vật liệu": "Đồng thau mạ chrome",
+      "Chế độ phun": "3 chế độ",
+      "Áp lực nước": "0.5 - 5 bar",
+      "Xuất xứ": "Đức"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "450.000₫",
+        "originalPrice": "550.000₫",
+        "discount": "-18%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "881.000₫",
+        "originalPrice": "990.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "1.276.000₫",
+        "originalPrice": "1.402.000₫",
+        "discount": "-9%"
+      }
+    ],
+    "currentPrice": "450.000₫",
+    "originalPrice": "550.000₫",
+    "discount": "-18%",
+    "rating": "4.7",
+    "sold": "904"
   },
   {
     "id": 78,
+    "categoryid": 8,
     "name": "Sen cây đứng Inax BFV-110S",
-    "categoryId": 8,
-    "img": "",
-    "price": 2198000,
-    "unit": "bộ",
-    "stock": 73
+    "imageKey": "sp78",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sen cây đứng Inax BFV-110S thiết kế thanh lịch với đầu sen lớn tạo cảm giác mưa tự nhiên thư giãn. Hệ thống điều chỉnh nhiệt độ và lưu lượng nước dễ sử dụng, an toàn và tiết kiệm nước.",
+    "specs": {
+      "Thương hiệu": "Inax",
+      "Model": "BFV-110S",
+      "Loại": "Sen cây đứng",
+      "Đường kính đầu sen": "200mm",
+      "Xuất xứ": "Nhật Bản"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "2.200.000₫",
+        "originalPrice": "2.600.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "4.259.000₫",
+        "originalPrice": "4.680.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "6.100.000₫",
+        "originalPrice": "6.630.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "2.200.000₫",
+    "originalPrice": "2.600.000₫",
+    "discount": "-15%",
+    "rating": "4.6",
+    "sold": "2,1k"
   },
   {
     "id": 79,
+    "categoryid": 8,
     "name": "Sen tắm nhiệt độ Grohe",
-    "categoryId": 8,
-    "img": "",
-    "price": 3210000,
-    "unit": "cái",
-    "stock": 388
+    "imageKey": "sp79",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Sen tắm nhiệt độ Grohe với công nghệ TempControl cố định nhiệt độ nước theo ý muốn, an toàn và tiện lợi. Thiết kế Đức cao cấp, chất liệu đồng thau bền bỉ, mang lại trải nghiệm tắm 5 sao.",
+    "specs": {
+      "Thương hiệu": "Grohe",
+      "Loại": "Sen tắm nhiệt độ",
+      "Điều chỉnh nhiệt": "Có TempControl",
+      "Vật liệu": "Đồng thau mạ chrome",
+      "Xuất xứ": "Đức"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "3.200.000₫",
+        "originalPrice": "3.500.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "5.985.000₫",
+        "originalPrice": "6.300.000₫",
+        "discount": "-5%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "8.568.000₫",
+        "originalPrice": "8.925.000₫",
+        "discount": "-4%"
+      }
+    ],
+    "currentPrice": "3.200.000₫",
+    "originalPrice": "3.500.000₫",
+    "discount": "-8%",
+    "rating": "4.9",
+    "sold": "4,3k"
   },
   {
     "id": 80,
+    "categoryid": 8,
     "name": "Vòi rửa bát nóng lạnh Teka",
-    "categoryId": 8,
-    "img": "",
-    "price": 689000,
-    "unit": "cái",
-    "stock": 166
+    "imageKey": "sp80",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Vòi rửa bát nóng lạnh Teka thiết kế cần gạt linh hoạt, điều chỉnh nhiệt độ và lưu lượng dễ dàng. Phù hợp cho bồn rửa bếp, chất liệu inox 304 chống rỉ sét, bền lâu và dễ vệ sinh.",
+    "specs": {
+      "Thương hiệu": "Teka",
+      "Loại": "Vòi rửa bát nóng lạnh",
+      "Vật liệu": "Inox 304 mạ chrome",
+      "Áp suất": "0.5 - 5 bar",
+      "Xuất xứ": "Tây Ban Nha"
+    },
+    "variants": [
+      {
+        "name": "1 Bộ",
+        "price": "690.000₫",
+        "originalPrice": "860.000₫",
+        "discount": "-19%"
+      },
+      {
+        "name": "2 Bộ",
+        "price": "1.378.000₫",
+        "originalPrice": "1.548.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "3 Bộ",
+        "price": "1.974.000₫",
+        "originalPrice": "2.193.000₫",
+        "discount": "-10%"
+      }
+    ],
+    "currentPrice": "690.000₫",
+    "originalPrice": "860.000₫",
+    "discount": "-19%",
+    "rating": "5",
+    "sold": "6,3k"
   },
   {
     "id": 81,
+    "categoryid": 9,
     "name": "Kính cường lực 8mm trong suốt",
-    "categoryId": 9,
-    "img": "",
-    "price": 356000,
-    "unit": "m2",
-    "stock": 445
+    "imageKey": "sp81",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Kính cường lực 8mm trong suốt được gia nhiệt và làm lạnh đột ngột tạo độ bền gấp 5 lần kính thường. Khi vỡ tạo thành mảnh nhỏ tù, không sắc nhọn, đảm bảo an toàn cho người dùng.",
+    "specs": {
+      "Loại kính": "Cường lực trong suốt",
+      "Độ dày": "8mm",
+      "Cường độ uốn": "≥ 120 MPa",
+      "Kích thước tối đa": "3300 x 2140mm",
+      "Tiêu chuẩn": "TCVN 7455:2004"
+    },
+    "variants": [
+      {
+        "name": "1 m2",
+        "price": "350.000₫",
+        "originalPrice": "400.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "2 m2",
+        "price": "670.000₫",
+        "originalPrice": "720.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "5 m2",
+        "price": "1.598.000₫",
+        "originalPrice": "1.700.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "350.000₫",
+    "originalPrice": "400.000₫",
+    "discount": "-12%",
+    "rating": "4.5",
+    "sold": "7149"
   },
   {
     "id": 82,
+    "categoryid": 9,
     "name": "Kính cường lực 10mm mờ",
-    "categoryId": 9,
-    "img": "",
-    "price": 429000,
-    "unit": "tấm",
-    "stock": 198
+    "imageKey": "sp82",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Kính cường lực 10mm mờ vừa bảo vệ sự riêng tư vừa cho ánh sáng xuyên qua dịu nhẹ. Phù hợp cho vách ngăn phòng tắm, cửa kính và các vị trí cần che chắn thẩm mỹ.",
+    "specs": {
+      "Loại kính": "Cường lực mờ",
+      "Độ dày": "10mm",
+      "Độ truyền sáng": "60 - 70%",
+      "Ứng dụng": "Vách tắm, cửa kính, vách ngăn",
+      "Tiêu chuẩn": "TCVN 7455:2004"
+    },
+    "variants": [
+      {
+        "name": "1 m2",
+        "price": "430.000₫",
+        "originalPrice": "490.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "2 m2",
+        "price": "820.000₫",
+        "originalPrice": "882.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "5 m2",
+        "price": "1.957.000₫",
+        "originalPrice": "2.082.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "430.000₫",
+    "originalPrice": "490.000₫",
+    "discount": "-12%",
+    "rating": "4.5",
+    "sold": "656"
   },
   {
     "id": 83,
+    "categoryid": 9,
     "name": "Kính cường lực 12mm",
-    "categoryId": 9,
-    "img": "",
-    "price": 621000,
-    "unit": "m2",
-    "stock": 90
+    "imageKey": "sp83",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Kính cường lực 12mm độ dày lớn cho độ bền và khả năng chịu tải trọng cao nhất. Thường dùng cho sàn kính, cầu thang kính và các ứng dụng đòi hỏi an toàn tuyệt đối.",
+    "specs": {
+      "Loại kính": "Cường lực",
+      "Độ dày": "12mm",
+      "Cường độ uốn": "≥ 120 MPa",
+      "Ứng dụng": "Sàn kính, cầu thang, vách lớn",
+      "Tiêu chuẩn": "TCVN 7455:2004"
+    },
+    "variants": [
+      {
+        "name": "1 m2",
+        "price": "620.000₫",
+        "originalPrice": "680.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "2 m2",
+        "price": "1.163.000₫",
+        "originalPrice": "1.224.000₫",
+        "discount": "-5%"
+      },
+      {
+        "name": "5 m2",
+        "price": "2.774.000₫",
+        "originalPrice": "2.890.000₫",
+        "discount": "-4%"
+      }
+    ],
+    "currentPrice": "620.000₫",
+    "originalPrice": "680.000₫",
+    "discount": "-8%",
+    "rating": "4.7",
+    "sold": "18k"
   },
   {
     "id": 84,
+    "categoryid": 9,
     "name": "Kính float 5mm",
-    "categoryId": 9,
-    "img": "",
-    "price": 126000,
-    "unit": "tấm",
-    "stock": 487
+    "imageKey": "sp84",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Kính float 5mm kính phẳng đa dụng, trong suốt hoàn toàn, phù hợp làm cửa sổ, khung tranh và ốp nội thất. Bề mặt phẳng tuyệt đối không biến dạng hình ảnh, dễ cắt và gia công.",
+    "specs": {
+      "Loại kính": "Float trong suốt",
+      "Độ dày": "5mm",
+      "Độ truyền sáng": "≥ 90%",
+      "Kích thước tối đa": "3300 x 2140mm",
+      "Ứng dụng": "Cửa sổ, khung tranh, ốp nội thất"
+    },
+    "variants": [
+      {
+        "name": "1 m2",
+        "price": "130.000₫",
+        "originalPrice": "150.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "2 m2",
+        "price": "248.000₫",
+        "originalPrice": "270.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "5 m2",
+        "price": "600.000₫",
+        "originalPrice": "638.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "130.000₫",
+    "originalPrice": "150.000₫",
+    "discount": "-13%",
+    "rating": "4.8",
+    "sold": "6934"
   },
   {
     "id": 85,
+    "categoryid": 9,
     "name": "Kính float 8mm",
-    "categoryId": 9,
-    "img": "",
-    "price": 215000,
-    "unit": "m2",
-    "stock": 169
+    "imageKey": "sp85",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Kính float 8mm độ dày lớn hơn cho độ cứng và cách âm tốt hơn. Phù hợp cho cửa đi, vách kính lớn và các ứng dụng cần độ chịu lực cao hơn kính thông thường.",
+    "specs": {
+      "Loại kính": "Float trong suốt",
+      "Độ dày": "8mm",
+      "Độ truyền sáng": "≥ 90%",
+      "Cách âm": "35 dB",
+      "Ứng dụng": "Cửa đi, vách kính lớn"
+    },
+    "variants": [
+      {
+        "name": "1 m2",
+        "price": "220.000₫",
+        "originalPrice": "250.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "2 m2",
+        "price": "418.000₫",
+        "originalPrice": "450.000₫",
+        "discount": "-7%"
+      },
+      {
+        "name": "5 m2",
+        "price": "998.000₫",
+        "originalPrice": "1.062.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "220.000₫",
+    "originalPrice": "250.000₫",
+    "discount": "-12%",
+    "rating": "4.8",
+    "sold": "9817"
   },
   {
     "id": 86,
+    "categoryid": 9,
     "name": "Kính hộp đôi 5+6A+5",
-    "categoryId": 9,
-    "img": "",
-    "price": 440000,
-    "unit": "tấm",
-    "stock": 493
+    "imageKey": "sp86",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Kính hộp đôi 5+6A+5 gồm hai lớp kính float với lớp khí argon ở giữa, cách nhiệt và cách âm vượt trội. Tiết kiệm điện năng điều hòa đến 30%, phù hợp cho các tòa nhà tiết kiệm năng lượng.",
+    "specs": {
+      "Loại kính": "Kính hộp đôi",
+      "Cấu trúc": "5mm + 6mm Air + 5mm",
+      "Hệ số U": "≤ 1.8 W/m²K",
+      "Cách âm": "40 dB",
+      "Ứng dụng": "Tòa nhà tiết kiệm năng lượng"
+    },
+    "variants": [
+      {
+        "name": "1 m2",
+        "price": "450.000₫",
+        "originalPrice": "550.000₫",
+        "discount": "-18%"
+      },
+      {
+        "name": "2 m2",
+        "price": "881.000₫",
+        "originalPrice": "990.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "5 m2",
+        "price": "2.128.000₫",
+        "originalPrice": "2.338.000₫",
+        "discount": "-9%"
+      }
+    ],
+    "currentPrice": "450.000₫",
+    "originalPrice": "550.000₫",
+    "discount": "-18%",
+    "rating": "4.8",
+    "sold": "41k"
   },
   {
     "id": 87,
+    "categoryid": 9,
     "name": "Kính phản quang 6mm",
-    "categoryId": 9,
-    "img": "",
-    "price": 308000,
-    "unit": "m2",
-    "stock": 101
+    "imageKey": "sp87",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Kính phản quang 6mm có lớp phủ kim loại mỏng phản chiếu ánh sáng mặt trời, giảm nhiệt lượng vào nhà và tạo hiệu ứng gương một chiều thẩm mỹ từ bên ngoài.",
+    "specs": {
+      "Loại kính": "Phản quang",
+      "Độ dày": "6mm",
+      "Hệ số phản xạ": "≥ 30%",
+      "Màu sắc": "Xanh/Xám/Đồng",
+      "Ứng dụng": "Mặt đứng cao ốc, văn phòng"
+    },
+    "variants": [
+      {
+        "name": "1 m2",
+        "price": "310.000₫",
+        "originalPrice": "380.000₫",
+        "discount": "-18%"
+      },
+      {
+        "name": "2 m2",
+        "price": "609.000₫",
+        "originalPrice": "684.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "5 m2",
+        "price": "1.470.000₫",
+        "originalPrice": "1.615.000₫",
+        "discount": "-9%"
+      }
+    ],
+    "currentPrice": "310.000₫",
+    "originalPrice": "380.000₫",
+    "discount": "-18%",
+    "rating": "4.6",
+    "sold": "1470"
   },
   {
     "id": 88,
+    "categoryid": 9,
     "name": "Nhôm định hình hệ 55 trắng",
-    "categoryId": 9,
-    "img": "",
-    "price": 193000,
-    "unit": "cây 6m",
-    "stock": 244
+    "imageKey": "sp88",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Nhôm định hình hệ 55 màu trắng kinh điển, phù hợp với mọi phong cách nội thất. Hợp kim nhôm 6063-T5 độ bền cao, chống oxy hóa và dễ gia công lắp đặt cửa và vách ngăn.",
+    "specs": {
+      "Vật liệu": "Nhôm 6063-T5",
+      "Hệ": "Hệ 55",
+      "Màu sắc": "Trắng sơn tĩnh điện",
+      "Độ dày thành": "1.4mm",
+      "Ứng dụng": "Cửa sổ, cửa đi, vách ngăn"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "150.000₫",
+        "originalPrice": "180.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "292.000₫",
+        "originalPrice": "324.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "1 Thanh (6m)",
+        "price": "845.000₫",
+        "originalPrice": "918.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "150.000₫",
+    "originalPrice": "180.000₫",
+    "discount": "-16%",
+    "rating": "4.6",
+    "sold": "43k"
   },
   {
     "id": 89,
+    "categoryid": 9,
     "name": "Nhôm định hình hệ 55 vân gỗ",
-    "categoryId": 9,
-    "img": "",
-    "price": 231000,
-    "unit": "m",
-    "stock": 192
+    "imageKey": "sp89",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Nhôm định hình hệ 55 vân gỗ mang vẻ đẹp ấm áp của gỗ tự nhiên kết hợp độ bền của nhôm. Hoàn thiện sơn vân gỗ hiện đại, không bong tróc và không cần sơn lại trong nhiều năm.",
+    "specs": {
+      "Vật liệu": "Nhôm 6063-T5",
+      "Hệ": "Hệ 55",
+      "Hoàn thiện": "Sơn vân gỗ",
+      "Độ dày thành": "1.4mm",
+      "Ứng dụng": "Cửa sổ, cửa đi phong cách gỗ"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "190.000₫",
+        "originalPrice": "220.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "364.000₫",
+        "originalPrice": "396.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "1 Thanh (6m)",
+        "price": "1.055.000₫",
+        "originalPrice": "1.122.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "190.000₫",
+    "originalPrice": "220.000₫",
+    "discount": "-13%",
+    "rating": "4.9",
+    "sold": "4954"
   },
   {
     "id": 90,
+    "categoryid": 9,
     "name": "Nhôm hệ 65 xingfa",
-    "categoryId": 9,
-    "img": "",
-    "price": 293000,
-    "unit": "cây 6m",
-    "stock": 282
+    "imageKey": "sp90",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Nhôm hệ 65 Xingfa cao cấp nhập khẩu từ Trung Quốc với cấu tạo thanh nhôm dày hơn và chắc chắn hơn hệ 55. Phù hợp cho cửa lớn, vách kính kích thước lớn và các công trình thương mại.",
+    "specs": {
+      "Thương hiệu": "Xingfa",
+      "Hệ": "Hệ 65",
+      "Vật liệu": "Nhôm 6063-T5",
+      "Độ dày thành": "1.8mm",
+      "Ứng dụng": "Cửa lớn, vách kính thương mại"
+    },
+    "variants": [
+      {
+        "name": "1 Mét",
+        "price": "250.000₫",
+        "originalPrice": "300.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "2 Mét",
+        "price": "486.000₫",
+        "originalPrice": "540.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "1 Thanh (6m)",
+        "price": "1.408.000₫",
+        "originalPrice": "1.530.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "250.000₫",
+    "originalPrice": "300.000₫",
+    "discount": "-16%",
+    "rating": "4.9",
+    "sold": "9041"
   },
   {
     "id": 91,
+    "categoryid": 10,
     "name": "Thạch cao tấm thường 9mm",
-    "categoryId": 10,
-    "img": "",
-    "price": 88000,
-    "unit": "tấm",
-    "stock": 375
+    "imageKey": "sp91",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thạch cao tấm thường 9mm vật liệu hoàn thiện phổ biến nhất trong xây dựng nội thất hiện đại. Nhẹ, dễ thi công, bề mặt phẳng mịn sẵn sàng sơn, phù hợp cho trần thạch cao và vách ngăn.",
+    "specs": {
+      "Loại": "Thạch cao thường",
+      "Độ dày": "9mm",
+      "Kích thước tấm": "1200 x 2400mm",
+      "Ứng dụng": "Trần, vách ngăn nội thất",
+      "Tiêu chuẩn": "TCVN 7189:2015"
+    },
+    "variants": [
+      {
+        "name": "1 Tấm",
+        "price": "110.000₫",
+        "originalPrice": "130.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "5 Tấm",
+        "price": "532.000₫",
+        "originalPrice": "585.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "10 Tấm",
+        "price": "1.017.000₫",
+        "originalPrice": "1.105.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "110.000₫",
+    "originalPrice": "130.000₫",
+    "discount": "-15%",
+    "rating": "4.5",
+    "sold": "98k"
   },
   {
     "id": 92,
+    "categoryid": 10,
     "name": "Thạch cao tấm chống ẩm 9mm",
-    "categoryId": 10,
-    "img": "",
-    "price": 122000,
-    "unit": "m2",
-    "stock": 477
+    "imageKey": "sp92",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thạch cao tấm chống ẩm 9mm với lõi thạch cao được xử lý chống ẩm và vỏ bọc giấy chống thấm. Phù hợp cho nhà tắm, nhà bếp và các khu vực ẩm ướt cần hoàn thiện bằng thạch cao.",
+    "specs": {
+      "Loại": "Thạch cao chống ẩm",
+      "Độ dày": "9mm",
+      "Kích thước tấm": "1200 x 2400mm",
+      "Ứng dụng": "Nhà tắm, bếp, khu vực ẩm",
+      "Nhận biết": "Màu xanh lá"
+    },
+    "variants": [
+      {
+        "name": "1 Tấm",
+        "price": "130.000₫",
+        "originalPrice": "150.000₫",
+        "discount": "-13%"
+      },
+      {
+        "name": "5 Tấm",
+        "price": "621.000₫",
+        "originalPrice": "675.000₫",
+        "discount": "-8%"
+      },
+      {
+        "name": "10 Tấm",
+        "price": "1.198.000₫",
+        "originalPrice": "1.275.000₫",
+        "discount": "-6%"
+      }
+    ],
+    "currentPrice": "130.000₫",
+    "originalPrice": "150.000₫",
+    "discount": "-13%",
+    "rating": "4.8",
+    "sold": "64k"
   },
   {
     "id": 93,
+    "categoryid": 10,
     "name": "Thạch cao tấm chống cháy 12mm",
-    "categoryId": 10,
-    "img": "",
-    "price": 146000,
-    "unit": "tấm",
-    "stock": 236
+    "imageKey": "sp93",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thạch cao tấm chống cháy 12mm được gia cố sợi thủy tinh và phụ gia đặc biệt tăng khả năng chống lửa. Đạt chuẩn chống cháy, phù hợp cho hành lang thoát hiểm, phòng máy và các vị trí yêu cầu PCCC.",
+    "specs": {
+      "Loại": "Thạch cao chống cháy",
+      "Độ dày": "12mm",
+      "Khả năng chống cháy": "F60",
+      "Ứng dụng": "Hành lang PCCC, phòng máy",
+      "Nhận biết": "Màu hồng đỏ"
+    },
+    "variants": [
+      {
+        "name": "1 Tấm",
+        "price": "160.000₫",
+        "originalPrice": "190.000₫",
+        "discount": "-15%"
+      },
+      {
+        "name": "5 Tấm",
+        "price": "778.000₫",
+        "originalPrice": "855.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "10 Tấm",
+        "price": "1.486.000₫",
+        "originalPrice": "1.615.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "160.000₫",
+    "originalPrice": "190.000₫",
+    "discount": "-15%",
+    "rating": "4.7",
+    "sold": "25k"
   },
   {
     "id": 94,
+    "categoryid": 10,
     "name": "Thanh xương thạch cao C 38",
-    "categoryId": 10,
-    "img": "",
-    "price": 20000,
-    "unit": "cây 3m",
-    "stock": 133
+    "imageKey": "sp94",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thanh xương thạch cao C 38 làm khung chịu lực chính cho vách ngăn thạch cao. Thép mạ kẽm dày 0.4mm chống rỉ sét, chịu lực tốt và đảm bảo độ phẳng vách sau khi hoàn thiện.",
+    "specs": {
+      "Loại": "Thanh C (thanh đứng)",
+      "Kích thước": "C 38mm",
+      "Vật liệu": "Thép mạ kẽm",
+      "Độ dày": "0.4mm",
+      "Ứng dụng": "Khung vách ngăn thạch cao"
+    },
+    "variants": [
+      {
+        "name": "1 Thanh",
+        "price": "25.000₫",
+        "originalPrice": "30.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "5 Thanh",
+        "price": "122.000₫",
+        "originalPrice": "135.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "10 Thanh",
+        "price": "235.000₫",
+        "originalPrice": "255.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "25.000₫",
+    "originalPrice": "30.000₫",
+    "discount": "-16%",
+    "rating": "5",
+    "sold": "37k"
   },
   {
     "id": 95,
+    "categoryid": 10,
     "name": "Thanh xương thạch cao U 28",
-    "categoryId": 10,
-    "img": "",
-    "price": 22000,
-    "unit": "thanh",
-    "stock": 239
+    "imageKey": "sp95",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Thanh xương thạch cao U 28 làm thanh chân và đầu trong hệ khung thạch cao. Kết hợp với thanh C 38 tạo thành khung hoàn chỉnh cho vách ngăn và trần thạch cao.",
+    "specs": {
+      "Loại": "Thanh U (thanh ngang)",
+      "Kích thước": "U 28mm",
+      "Vật liệu": "Thép mạ kẽm",
+      "Độ dày": "0.4mm",
+      "Ứng dụng": "Khung trần, chân và đầu vách"
+    },
+    "variants": [
+      {
+        "name": "1 Thanh",
+        "price": "20.000₫",
+        "originalPrice": "24.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "5 Thanh",
+        "price": "97.000₫",
+        "originalPrice": "108.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "10 Thanh",
+        "price": "188.000₫",
+        "originalPrice": "204.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "20.000₫",
+    "originalPrice": "24.000₫",
+    "discount": "-16%",
+    "rating": "4.5",
+    "sold": "4,5k"
   },
   {
     "id": 96,
+    "categoryid": 10,
     "name": "Keo dán gạch CM17 bột trắng",
-    "categoryId": 10,
-    "img": "",
-    "price": 21000,
-    "unit": "bao 25kg",
-    "stock": 231
+    "imageKey": "sp96",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Keo dán gạch CM17 bột trắng thích hợp dán gạch ceramic và gạch nhẹ. Lực bám dính tốt, không co ngót, chịu nhiệt và chịu ẩm, dễ thi công cho thợ xây không chuyên.",
+    "specs": {
+      "Thương hiệu": "CM17",
+      "Loại": "Keo dán gạch bột trắng",
+      "Lực bám dính": "≥ 1 N/mm²",
+      "Ứng dụng": "Gạch ceramic, gạch nhẹ",
+      "Thời gian mở": "30 phút"
+    },
+    "variants": [
+      {
+        "name": "1 Kg",
+        "price": "15.000₫",
+        "originalPrice": "18.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "5 Kg",
+        "price": "73.000₫",
+        "originalPrice": "81.000₫",
+        "discount": "-10%"
+      },
+      {
+        "name": "Bao 25kg",
+        "price": "351.000₫",
+        "originalPrice": "382.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "15.000₫",
+    "originalPrice": "18.000₫",
+    "discount": "-16%",
+    "rating": "4.5",
+    "sold": "775"
   },
   {
     "id": 97,
+    "categoryid": 10,
     "name": "Keo dán gạch Mapei Kerabond",
-    "categoryId": 10,
-    "img": "",
-    "price": 22000,
-    "unit": "kg",
-    "stock": 157
+    "imageKey": "sp97",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Keo dán gạch Mapei Kerabond chất lượng châu Âu với lực bám dính vượt trội cho mọi loại gạch. Đặc biệt hiệu quả với gạch porcelain, đá tự nhiên và gạch kích thước lớn.",
+    "specs": {
+      "Thương hiệu": "Mapei",
+      "Model": "Kerabond",
+      "Lực bám dính": "≥ 1.5 N/mm²",
+      "Ứng dụng": "Gạch porcelain, đá tự nhiên",
+      "Tiêu chuẩn": "EN 12004 C1"
+    },
+    "variants": [
+      {
+        "name": "1 Kg",
+        "price": "18.000₫",
+        "originalPrice": "22.000₫",
+        "discount": "-18%"
+      },
+      {
+        "name": "5 Kg",
+        "price": "88.000₫",
+        "originalPrice": "99.000₫",
+        "discount": "-11%"
+      },
+      {
+        "name": "Bao 25kg",
+        "price": "426.000₫",
+        "originalPrice": "468.000₫",
+        "discount": "-9%"
+      }
+    ],
+    "currentPrice": "18.000₫",
+    "originalPrice": "22.000₫",
+    "discount": "-18%",
+    "rating": "5",
+    "sold": "5658"
   },
   {
     "id": 98,
+    "categoryid": 10,
     "name": "Keo chít mạch đàn hồi màu",
-    "categoryId": 10,
-    "img": "",
-    "price": 110000,
-    "unit": "hộp 1kg",
-    "stock": 393
+    "imageKey": "sp98",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Keo chít mạch đàn hồi màu có tính linh hoạt cao, không nứt vỡ theo thời gian và chịu được co giãn nhiệt. Có nhiều màu sắc phong phú, kháng nấm mốc, phù hợp cho mạch gạch phòng tắm và bể bơi.",
+    "specs": {
+      "Loại": "Keo chít mạch đàn hồi",
+      "Thành phần": "Epoxy hoặc Silicone",
+      "Màu sắc": "Đa dạng",
+      "Kháng nấm mốc": "Có",
+      "Ứng dụng": "Phòng tắm, bể bơi, mạch lớn"
+    },
+    "variants": [
+      {
+        "name": "1 Kg",
+        "price": "80.000₫",
+        "originalPrice": "100.000₫",
+        "discount": "-20%"
+      },
+      {
+        "name": "5 Kg",
+        "price": "396.000₫",
+        "originalPrice": "450.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "Bao 25kg",
+        "price": "1.912.000₫",
+        "originalPrice": "2.125.000₫",
+        "discount": "-10%"
+      }
+    ],
+    "currentPrice": "80.000₫",
+    "originalPrice": "100.000₫",
+    "discount": "-20%",
+    "rating": "4.8",
+    "sold": "398"
   },
   {
     "id": 99,
+    "categoryid": 10,
     "name": "Bột bả tường Maxbond nội thất",
-    "categoryId": 10,
-    "img": "",
-    "price": 21000,
-    "unit": "kg",
-    "stock": 186
+    "imageKey": "sp99",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Bột bả tường Maxbond nội thất tạo lớp nền mịn màng trước khi sơn, giúp che khuyết điểm tường và tăng độ bám của sơn. Bột trắng mịn, dễ trộn và thi công nhanh cho thợ và chủ nhà tự làm.",
+    "specs": {
+      "Thương hiệu": "Maxbond",
+      "Loại": "Bột bả nội thất",
+      "Màu sau khi khô": "Trắng",
+      "Ứng dụng": "Bả tường nội thất trước khi sơn",
+      "Độ dày lớp bả": "1 - 3mm"
+    },
+    "variants": [
+      {
+        "name": "1 Kg",
+        "price": "10.000₫",
+        "originalPrice": "12.000₫",
+        "discount": "-16%"
+      },
+      {
+        "name": "5 Kg",
+        "price": "49.000₫",
+        "originalPrice": "54.000₫",
+        "discount": "-9%"
+      },
+      {
+        "name": "Bao 40kg",
+        "price": "375.000₫",
+        "originalPrice": "408.000₫",
+        "discount": "-8%"
+      }
+    ],
+    "currentPrice": "10.000₫",
+    "originalPrice": "12.000₫",
+    "discount": "-16%",
+    "rating": "4.8",
+    "sold": "29k"
   },
   {
     "id": 100,
+    "categoryid": 10,
     "name": "Bột bả tường Promix ngoại thất",
-    "categoryId": 10,
-    "img": "",
-    "price": 22000,
-    "unit": "bao 25kg",
-    "stock": 409
+    "imageKey": "sp100",
+    "images": [
+      "https://via.placeholder.com/500x350?text=Mat+Truoc",
+      "https://via.placeholder.com/500x350?text=Mat+Sau",
+      "https://via.placeholder.com/500x350?text=Chi+Tiet"
+    ],
+    "description": "Bột bả tường Promix ngoại thất chịu được mưa nắng và nhiệt độ thay đổi, không nứt vỡ hay bong tróc. Đặc tính chống thấm và kháng kiềm cao, bảo vệ tường ngoài trời bền lâu.",
+    "specs": {
+      "Thương hiệu": "Promix",
+      "Loại": "Bột bả ngoại thất",
+      "Chống thấm": "Có",
+      "Kháng kiềm": "Cao",
+      "Ứng dụng": "Bả tường ngoài nhà trước khi sơn"
+    },
+    "variants": [
+      {
+        "name": "1 Kg",
+        "price": "12.000₫",
+        "originalPrice": "15.000₫",
+        "discount": "-20%"
+      },
+      {
+        "name": "5 Kg",
+        "price": "60.000₫",
+        "originalPrice": "68.000₫",
+        "discount": "-12%"
+      },
+      {
+        "name": "Bao 40kg",
+        "price": "459.000₫",
+        "originalPrice": "510.000₫",
+        "discount": "-10%"
+      }
+    ],
+    "currentPrice": "12.000₫",
+    "originalPrice": "15.000₫",
+    "discount": "-20%",
+    "rating": "4.6",
+    "sold": "4697"
   }
 ]

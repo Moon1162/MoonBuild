@@ -1,147 +1,162 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import './Header.css';
-import logoImage from '../../img/logo.png'; 
+import logoImage from '../../img/logo.png';
 
 const Header = () => {
   const [hoveredMenu, setHoveredMenu] = useState(null);
   const [cartCount, setCartCount] = useState(0);
+  const [favCount, setFavCount] = useState(0);
   const [currentUser, setCurrentUser] = useState(null);
-  
+  const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
-  const location = useLocation(); 
 
   useEffect(() => {
-    const updateCartCount = () => {
+    const updateHeaderData = () => {
       const savedCart = localStorage.getItem('cart');
-      if (!savedCart) {
-        setCartCount(0);
-      } else {
+      if (savedCart) {
         try {
           const cart = JSON.parse(savedCart);
           const totalItems = cart.reduce((sum, item) => sum + (item.quantity || 0), 0);
           setCartCount(totalItems);
-        } catch (error) {
-          console.error('Lỗi đọc giỏ hàng:', error);
-          setCartCount(0);
-        }
-      }
-    };
+        } catch (e) { setCartCount(0); }
+      } else { setCartCount(0); }
 
-    const updateCurrentUser = () => {
+      const favs = JSON.parse(localStorage.getItem('favorites')) || [];
+      setFavCount(favs.length);
+
       const savedUser = localStorage.getItem('currentUser');
-      if (!savedUser) {
-        setCurrentUser(null);
-        return;
-      }
-      try {
-        const user = JSON.parse(savedUser);
-        setCurrentUser(user);
-      } catch (error) {
-        console.error('Lỗi đọc thông tin người dùng:', error);
-        setCurrentUser(null);
-      }
+      if (savedUser) {
+        try { setCurrentUser(JSON.parse(savedUser)); } 
+        catch (e) { setCurrentUser(null); }
+      } else { setCurrentUser(null); }
     };
 
-    updateCartCount();
-    updateCurrentUser();
+    updateHeaderData();
 
-    window.addEventListener('cartUpdated', updateCartCount);
-    window.addEventListener('userUpdated', updateCurrentUser);
-    window.addEventListener('storage', () => {
-      updateCartCount();
-      updateCurrentUser();
-    });
+    window.addEventListener('cartUpdated', updateHeaderData);
+    window.addEventListener('userUpdated', updateHeaderData);
+    window.addEventListener('favoritesUpdated', updateHeaderData);
+    window.addEventListener('storage', updateHeaderData);
 
     return () => {
-      window.removeEventListener('cartUpdated', updateCartCount);
-      window.removeEventListener('userUpdated', updateCurrentUser);
+      window.removeEventListener('cartUpdated', updateHeaderData);
+      window.removeEventListener('userUpdated', updateHeaderData);
+      window.removeEventListener('favoritesUpdated', updateHeaderData);
     };
   }, []);
 
-  const categoriesMenuItems = [
-    { text: 'Cát, Đá, Xi măng', href: '/categories/1' },
-    { text: 'Sắt Thép Xây Dựng', href: '/categories/2' },
-    { text: 'Gạch Xây Các Loại', href: '/categories/3' },
-    { text: 'Gạch Ốp Lát', href: '/categories/4' },
-    { text: 'Sơn & Chống Thấm', href: '/categories/5' },
-    { text: 'Thiết Bị Điện', href: '/categories/6' },
-    { text: 'Ống Nước & Phụ Kiện', href: '/categories/7' },
-    { text: 'Thiết Bị Vệ Sinh', href: '/categories/8' },
-    { text: 'Nhôm Kính', href: '/categories/9' },
-    { text: 'Thạch Cao & Keo Bả', href: '/categories/10' }
-  ];
-
-  const isActive = (path) => {
-    return location.pathname === path ? "active" : "";
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate(`/product?search=${encodeURIComponent(searchQuery.trim())}`);
+    }
   };
 
-  return (
-    <header className="moonbuild-header">
-      <div className="header-top-bar">
-        <div className="header-top-content">
-          
-          <div className="header-delivery-info">
-            <span className="delivery-text">Tư Vấn 24/7</span>
-            <span className="delivery-icon">📞</span>
-            <span className="delivery-phone">1900 1234</span>
-          </div>
+  const ximangMenuItems = [
+    { text: 'Xi măng Hà Tiên', to: '/product?search=hà%20tiên' },
+    { text: 'Xi măng Holcim', to: '/product?search=holcim' },
+    { text: 'Xi măng INSEE', to: '/product?search=insee' },
+    { text: 'Xi măng Nghi Sơn', to: '/product?search=nghi%20sơn' },
+    { text: 'Xi măng Vicem', to: '/product?search=vicem' }
+  ];
 
-          <div className="header-logo-container">
-            <div className="moonbuild-logo" onClick={() => navigate('/')}>
-              <img src={logoImage} alt="MoonBuild Logo" className="header-logo-image" />
-            </div>
+  return (
+    <header className="main-header">
+      <div className="header-top-strip">
+        <div className="header-container strip-content">
+          <div className="strip-left">
+            <i className="fas fa-truck"></i> Giao hàng tận nơi
+            <span className="strip-divider">|</span>
+            <i className="fas fa-phone-alt"></i> Hotline: <strong>1800 6779</strong>
           </div>
+          <div className="strip-right">
+            <span className="lang-active">VN</span>
+            <span className="strip-divider">|</span>
+            <span className="lang-option">EN</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="header-main-bar">
+        <div className="header-container main-bar-content">
+          <Link to="/" className="header-logo">
+            <img src={logoImage} alt="Moon VLXD Logo" />
+          </Link>
+
+          <form className="header-search-form" onSubmit={handleSearch}>
+            <input
+              type="text"
+              placeholder="Tìm kiếm xi măng, sắt thép, gạch đá..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="search-input"
+            />
+            <button type="submit" className="search-button">
+              <i className="fas fa-search"></i>
+            </button>
+          </form>
 
           <div className="header-user-actions">
-            <button className="login-link" onClick={() => navigate('/login')}>
-              {currentUser ? (currentUser.name || currentUser.user) : 'Đăng nhập'}
-            </button>
-            <span className="action-separator">|</span>
-            <button className="cart-button" onClick={() => navigate('/cart')}>
-              <span>Giỏ hàng</span>
-              <span className="cart-badge">{cartCount}</span>
-            </button>
+            <div className="action-item" onClick={() => navigate(currentUser ? '/profile' : '/login')}>
+              <i className="far fa-user action-icon"></i>
+              <div className="action-text">
+                <span className="action-title">Tài khoản</span>
+                <span className="action-desc">{currentUser ? (currentUser.name || currentUser.user) : 'Đăng nhập'}</span>
+              </div>
+            </div>
+
+            <div className="action-item" onClick={() => navigate('/favorites')}>
+              <div className="cart-icon-wrapper">
+                <i className="far fa-heart action-icon"></i>
+                {favCount > 0 && <span className="cart-badge">{favCount}</span>}
+              </div>
+              <div className="action-text">
+                <span className="action-title">Yêu thích</span>
+                <span className="action-desc">Đã lưu</span>
+              </div>
+            </div>
+
+            <div className="action-item cart-action" onClick={() => navigate('/cart')}>
+              <div className="cart-icon-wrapper">
+                <i className="fas fa-shopping-cart action-icon"></i>
+                {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
+              </div>
+              <div className="action-text">
+                <span className="action-title">Giỏ hàng</span>
+                <span className="action-desc">Sản phẩm</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <nav className="header-navigation">
-        <div className="nav-content">
-          <span className={`nav-link ${isActive('/')}`} onClick={() => navigate('/')}>
-            TRANG CHỦ
-          </span>
-
-          <span className={`nav-link ${isActive('/products')}`} onClick={() => navigate('/products')}>
-            SẢN PHẨM
-          </span>
-
-          <div 
+        <div className="header-container nav-content">
+          <Link to="/" className="nav-link">TRANG CHỦ</Link>
+          
+          <div
             className="nav-item-with-dropdown"
-            onMouseEnter={() => setHoveredMenu('categories')}
+            onMouseEnter={() => setHoveredMenu('ximang')}
             onMouseLeave={() => setHoveredMenu(null)}
           >
-            <span className={`nav-link ${isActive('/categories')}`} onClick={() => navigate('/categories')}>
-              DANH MỤC ▾
-            </span>
-            {hoveredMenu === 'categories' && (
+            <Link to="/product?category=1" className={`nav-link ${hoveredMenu === 'ximang' ? 'active' : ''}`}>
+              XI MĂNG <i className="fas fa-chevron-down nav-arrow"></i>
+            </Link>
+            {hoveredMenu === 'ximang' && (
               <div className="dropdown-menu">
-                {categoriesMenuItems.map((item, index) => (
-                  <span 
-                    key={index}
-                    onClick={() => navigate(item.href)}
-                    className="dropdown-item"
-                  >
-                    {item.text}
-                  </span>
+                {ximangMenuItems.map((item, index) => (
+                  <Link key={index} to={item.to} className="dropdown-item">{item.text}</Link>
                 ))}
               </div>
             )}
           </div>
 
-          <span className={`nav-link ${isActive('/contact')}`} onClick={() => navigate('/contact')}>
-            LIÊN HỆ
-          </span>
+          <Link to="/product?category=2" className="nav-link">SẮT THÉP</Link>
+          <Link to="/product?category=3" className="nav-link">GẠCH ĐÁ</Link>
+          <Link to="/product" className="nav-link">TẤT CẢ SẢN PHẨM</Link>
+          <Link to="/quote" className="nav-link">BÁO GIÁ</Link>
+          <Link to="/about" className="nav-link">VỀ MOON</Link>
         </div>
       </nav>
     </header>
